@@ -1,0 +1,100 @@
+.information {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 220px 0 150px 0;
+    &__line {
+        margin: 0 auto;
+    }
+    &__stats {
+        width: 100%;
+        height: 70px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 23rem;
+        display: flex;
+        align-items: center;
+        &:first-child {
+            width: 27rem;
+        }
+    }
+    &__title {
+        margin: 0;
+        font-size: 100px;
+        color: #0900d8;
+        margin-right: 10px;
+    }
+    &__descr {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    &__slider {
+        width: 1160px;
+        height: auto;
+        max-height: 415px;
+        margin: 0 auto;
+        margin-top: 65px;
+        &-item {
+            width: 350px;
+            position: relative;
+
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        &-img {
+            width: inherit;
+            position: relative;
+            img {
+                display: block;
+                max-width: 100%;
+                height: auto;
+                max-height: 232px;
+            }
+        }
+        &-subtitle {
+            margin-top: 21px;
+            font-size: 18px;
+            color: #86878b;
+            letter-spacing: -0.3px;
+        }
+        &-title {
+            margin-top: 8px;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -0.2px;
+        }
+        &-descr {
+            margin-top: 15px;
+            font-size: 18px;
+            color: #86878b;
+            letter-spacing: -0.4px;
+        }
+    }
+    .owl-prev {
+        position: absolute;
+        top: 33%;
+        transform: translateY(-50%);
+        left: -7%;
+        opacity: .2;
+    }
+    .owl-next {
+        position: absolute;
+        top: 33%;
+        transform: translateY(-50%);
+        right: -7%;
+        opacity: .2;
+    }
+    &__arrow-left {
+        transform: rotate(-180deg);
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        background: unset;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        background: unset;
+    }
+}

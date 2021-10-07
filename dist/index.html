@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestSite</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <header class="main__header">
+                <div class="main__header-logo">
+                    <img src="./icons/logo-mono.png" alt="logotype">
+                </div>
+                <nav class="main__menu menu">
+                    <ul class="main__menu-list menu__list">
+                        <li class="main__menu-item menu__item">
+                            <a href="">Главная страница</a>
+                        </li>
+                        <li class="main__menu-item menu__item">
+                            <a href="">О компании</a>
+                        </li>
+                        <li class="main__menu-item menu__item">
+                            <a href="">Каталог</a>
+                        </li>
+                        <li class="main__menu-item menu__item">
+                            <a href="">Услуги</a>
+                        </li>
+                        <li class="main__menu-item menu__item">
+                            <a href="">Новости</a>
+                        </li>
+                        <li class="main__menu-item menu__item">
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <hr class="main__hr">
+            <section class="main__content">
+                <div class="main__info">
+                    <img src="./icons/logo.png" alt="logo-main" class="main__logo">
+                    <h1 class="main__title">Завод котельного оборудования</h1>
+                    <div class="main__line"></div>
+                    <div class="main__descr">Краткий текст про завод на несколько строчек.  Краткий текст про завод на несколько строчек. Краткий текст про завод на несколько строчек</div>
+                    <button class="main__btn">Узнать больше</button>
+                </div>
+                <form action="#" method="POST" class="main__form form">
+                    <div class="main__form-wrap">
+                        <div class="main__form-title">Оставьте заявку <span>сейчас</span> и получите скидку <span>20%</span></div>
+                        <input type="text" autocomplete="off" name="name"  class="main__form-input" placeholder="Имя">
+                        <input type="text" name="phone" class="main__form-input" placeholder="Телефон">
+                        <input type="text" name="email" class="main__form-input" placeholder="E-mail">
+                        <label class="main__checkbox toggle">
+                            <input class="main__checkbox-input toggle__input" type="checkbox" id="main__check">
+                            <span class="main__checkbox-label toggle__label">
+                                <span class="toggle__text">Даю своё согласие на обработку <a href="#">персональных данных</a></span>
+                            </span>
+                        </label>
+                    </div>
+                    <button type="submit" class="main__form-btn">Получить скидку</button>
+                </form>
+            </section>
+        </div>
+    </div>
+    <div class="partners">
+        <div class="container">
+            <div class="partners__wrap">
+                <div class="partners__info">
+                    <div class="partners__title">Наши партнеры</div>
+                    <div class="partners__descr">Компании, работа с которыми позволяет достигнуть и еще какой то текст</div>
+                </div>
+                <ul class="partners__list">
+                    <li class="partners__item"><img src="./img/meZRVBLSe8I.jpg" alt="company-logo-1"></li>
+                    <li class="partners__item"><img src="./img/meZRVBLSe8I.jpg" alt="company-logo-2"></li>
+                    <li class="partners__item"><img src="./img/meZRVBLSe8I.jpg" alt="company-logo-3"></li>
+                    <li class="partners__item"><img src="./img/meZRVBLSe8I.jpg" alt="company-logo-4"></li>
+                    <li class="partners__item"><img src="./img/meZRVBLSe8I.jpg" alt="company-logo-5"></li>
+                    <li class="partners__item"><img src="./img/meZRVBLSe8I.jpg" alt="company-logo-6"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="description">
+        <div class="container">
+            <div class="description__wrap">
+                <div class="description__tabs">
+                    <button class="description__tab description__tab-active" data-num="1">TAB 1</button>
+                    <button class="description__tab" data-num="2">TAB 2</button>
+                    <button class="description__tab" data-num="3">TAB 3</button>
+                </div>
+                <div class="description__tabcontent" id="1">
+                    <div class="description__info">
+                        <div class="description__title">Сколько стоит 1 кВт  тепловой энергии?</div>
+                        <div class="description__text">
+                            Снижение затрат на отопление — приоритет для 
+                            каждого собственника. В настоящее время уголь — 
+                            самый дешевый вид топлива. Другие энергоресурсы (ДТ, 
+                            газ, мазут, электричество) только растут в цене и не 
+                            способны конкурировать с современной угольной 
+                            энергетикой. Мы гарантируем снижение стоимости 
+                            тепловой энергии при установке нашего оборудования, 
+                            которое обеспечивает стабильно высокий КПД и 
+                            экономичность эксплуатации.
+                        </div>
+                    </div>
+                    <img src="./img/description/block.png" alt="description-image">
+                </div>
+                <div class="description__tabcontent" id="2">
+                    <div class="description__info">
+                        <div class="description__title">Сколько стоит 2 кВт  тепловой энергии?</div>
+                        <div class="description__text">
+                            Снижение затрат на отопление — приоритет для 
+                            каждого собственника. В настоящее время уголь — 
+                            самый дешевый вид топлива. Другие энергоресурсы (ДТ, 
+                            газ, мазут, электричество) только растут в цене и не 
+                            способны конкурировать с современной угольной 
+                            энергетикой. Мы гарантируем снижение стоимости 
+                            тепловой энергии при установке нашего оборудования, 
+                            которое обеспечивает стабильно высокий КПД и 
+                            экономичность эксплуатации.
+                        </div>
+                    </div>
+                    <img src="./img/description/block.png" alt="description-image">
+                </div>
+                <div class="description__tabcontent" id="3">
+                    <div class="description__info">
+                        <div class="description__title">Сколько стоит 3 кВт  тепловой энергии?</div>
+                        <div class="description__text">
+                            Снижение затрат на отопление — приоритет для 
+                            каждого собственника. В настоящее время уголь — 
+                            самый дешевый вид топлива. Другие энергоресурсы (ДТ, 
+                            газ, мазут, электричество) только растут в цене и не 
+                            способны конкурировать с современной угольной 
+                            энергетикой. Мы гарантируем снижение стоимости 
+                            тепловой энергии при установке нашего оборудования, 
+                            которое обеспечивает стабильно высокий КПД и 
+                            экономичность эксплуатации.
+                        </div>
+                    </div>
+                    <img src="./img/description/block.png" alt="description-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="advantages-list">
+        <div class="container">
+            <div class="advantages-list__wrap">
+                <div class="advantages-list__title">Преимущества автоматизиро­ванных угольных котельных</div>
+            <div class="advantages-list__line line-block"></div>
+            <div class="advantages-list__block">
+                <div class="advantages-list__item">
+                    <div class="advantages-list__img-wrap">
+                        <img src="./icons/advantages-list/advantages-list1.png" alt="advantage-1" class="advantages-list__img">
+                    </div>
+                    <div class="advantages-list__text">
+                        <p class="advantages-list__name">Экономично</p>
+                        <p class="advantages-list__descr">Минимальная стоимость выработки, отсутствие потерь при транспортировке тепловой энергии</p>
+                    </div>
+                </div>
+                <div class="advantages-list__item">
+                    <div class="advantages-list__img-wrap">
+                        <img src="./icons/advantages-list/advantages-list2.png" alt="advantage-2" class="advantages-list__img">
+                    </div>
+                    <div class="advantages-list__text">
+                        <p class="advantages-list__name">Удобно</p>
+                        <p class="advantages-list__descr">Максимальная заводская <br> готовность к запуску в <br> эксплуатацию без дорогостоящих <br> монтажных работ</p>
+                    </div>
+                </div>
+                <div class="advantages-list__item">
+                    <div class="advantages-list__img-wrap">
+                        <img src="./icons/advantages-list/advantages-list3.png" alt="advantage-3" class="advantages-list__img">
+                    </div>
+                    <div class="advantages-list__text">
+                        <p class="advantages-list__name">Высокий КПД</p>
+                        <p class="advantages-list__descr">Стабильно высокий КПД и точно отрегулированный <br> процесс горения.</p>
+                    </div>
+                </div>
+                <div class="advantages-list__item">
+                    <div class="advantages-list__img-wrap">
+                        <img src="./icons/advantages-list/advantages-list4.png" alt="advantage-4" class="advantages-list__img">
+                    </div>
+                    <div class="advantages-list__text">
+                        <p class="advantages-list__name">Нет человеческого фактора</p>
+                        <p class="advantages-list__descr">Не требуется постоянное присутствие обслуживающего персонала. Снижение Фонда Оплаты Труда.</p>
+                    </div>
+                </div>
+                <div class="advantages-list__item">
+                    <div class="advantages-list__img-wrap">
+                        <img src="./icons/advantages-list/advantages-list5.png" alt="advantage-5" class="advantages-list__img">
+                    </div>
+                    <div class="advantages-list__text">
+                        <p class="advantages-list__name">Современно</p>
+                        <p class="advantages-list__descr">Автоматизиро­ванный процесс с  дистанционным управлением основными параметрами работы котла/котельной со смартфона или ПК</p>
+                    </div>
+                </div>
+                <div class="advantages-list__item">
+                    <div class="advantages-list__img-wrap">
+                        <img src="./icons/advantages-list/advantages-list6.png" alt="advantage-6" class="advantages-list__img">
+                    </div>
+                    <div class="advantages-list__text">
+                        <p class="advantages-list__name">Автономно</p>
+                        <p class="advantages-list__descr">Длительное время (до 7 суток) автономной работы на одной загрузке топлива</p>
+                    </div>
+                </div>
+                <div class="advantages-list__item">
+                    <div class="advantages-list__img-wrap">
+                        <img src="./icons/advantages-list/advantages-list7.png" alt="advantage-7" class="advantages-list__img">
+                    </div>
+                    <div class="advantages-list__text">
+                        <p class="advantages-list__name">Просто и безопасно</p>
+                        <p class="advantages-list__descr">Не требуется проект, разрешение на строительство, согласование с Ростехнадзором</p>
+                    </div>
+                </div>
+                <div class="advantages-list__item">
+                    <div class="advantages-list__img-wrap">
+                        <img src="./icons/advantages-list/advantages-list8.png" alt="advantage-8" class="advantages-list__img">
+                    </div>
+                    <div class="advantages-list__text">
+                        <p class="advantages-list__name">Надежно и долговечно</p>
+                        <p class="advantages-list__descr">Простая проверенная конструкция без выходящих из строя линейных и ретортных горелок, шнеков, шаговых двигателей и прочих «расходных» материалов</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-advantages">
+        <div class="container-main">
+            <div class="our-advantages__wrap">
+                <div class="our-advantages__info">
+                    <div class="our-advantages__title">Преимущества работы с нами</div>
+                    <div class="our-advantages__line line-block"></div>
+                    <div class="our-advantages__descr">
+                        Наша сила — в наших принципах: непрерывное совершенствование 
+                        технологий, модернизация выпускаемого оборудования, сочетание 
+                        собственных изобретений и опыта ведущих предприятий отрасли, контроль 
+                        качества на каждом этапе производства. Индивидуальный подход к каждому 
+                        клиенту — работаем, как с государственными, так и с частными 
+                        заказчиками.
+                    </div>
+                    <div class="our-advantages__block">
+                        <div class="our-advantages__item">
+                            <div class="our-advantages__img-wrap">
+                                <img src="./icons/our-advantages/our-advantages1.png" alt="our-advantages1" class="our-advantages__img">
+                            </div>
+                            <div class="our-advantages__text">Многолетний опыт работы в сфере теплоснабжения</div>
+                        </div>
+                        <div class="our-advantages__item">
+                            <div class="our-advantages__img-wrap">
+                                <img src="./icons/our-advantages/our-advantages2.png" alt="our-advantages2" class="our-advantages__img">
+                            </div>
+                            <div class="our-advantages__text">Команда профессионалов и собственные разработки</div>
+                        </div>
+                        <div class="our-advantages__item">
+                            <div class="our-advantages__img-wrap">
+                                <img src="./icons/our-advantages/our-advantages3.png" alt="our-advantages3" class="our-advantages__img">
+                            </div>
+                            <div class="our-advantages__text">Являемся заводом-изготовителем</div>
+                        </div>
+                        <div class="our-advantages__item">
+                            <div class="our-advantages__img-wrap">
+                                <img src="./icons/our-advantages/our-advantages4.png" alt="our-advantages4" class="our-advantages__img">
+                            </div>
+                            <div class="our-advantages__text">Сервисная поддержка, гарантийное и постгарантийное обслуживание</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-advantages__image">
+                    <img src="./img/our-advantages/our-advantages_background.png" alt="advantages-image">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="information">
+        <div class="container-main">
+            <div class="information__line line-block"></div>
+            <div class="information__stats">
+                <div class="information__item">
+                    <h3 class="information__title">2000+</h3>
+                    <p class="information__descr">Единиц реализованного и успешно эксплуатируемого оборудования</p>
+                </div>
+                <div class="information__item">
+                    <h3 class="information__title">300+</h3>
+                    <p class="information__descr">Построенных и реконструированных объектов сферы ЖКХ</p>
+                </div>
+                <div class="information__item">
+                    <h3 class="information__title">100+</h3>
+                    <p class="information__descr">Изготовленных блочно-модульных котельных</p>
+                </div>
+            </div>
+            <div class="information__slider owl-carousel owl-theme">
+                <div class="information__slider-item">
+                    <div class="information__slider-img">
+                        <img src="./img/our-advantages/our-advantages_background.png" alt="information-image">
+                    </div>
+                    <div class="information__slider-subtitle">Спасск-Дальний, Приморский край</div>
+                    <div class="information__slider-title">Автоматическая блочно-модульная котельная SYNERGY 1200</div>
+                    <div class="information__slider-descr">Изготовление, поставка и запуск в эксплуатацию автоматической угольной блочно-модульной котельной, тепловой мощностью 1200 кВт (3х400 кВт)</div>
+                </div>
+                <div class="information__slider-item">
+                    <div class="information__slider-img">
+                        <img src="./img/our-advantages/our-advantages_background.png" alt="information-image">
+                    </div>
+                    <div class="information__slider-subtitle">Спасск-Дальний, Приморский край</div>
+                    <div class="information__slider-title">Автоматическая блочно-модульная котельная SYNERGY 1200</div>
+                    <div class="information__slider-descr">Изготовление, поставка и запуск в эксплуатацию автоматической угольной блочно-модульной котельной, тепловой мощностью 1200 кВт (3х400 кВт)</div>
+                </div>
+                <div class="information__slider-item">
+                    <div class="information__slider-img">
+                        <img src="./img/our-advantages/our-advantages_background.png" alt="information-image">
+                    </div>
+                    <div class="information__slider-subtitle">Спасск-Дальний, Приморский край</div>
+                    <div class="information__slider-title">Автоматическая блочно-модульная котельная SYNERGY 1200</div>
+                    <div class="information__slider-descr">Изготовление, поставка и запуск в эксплуатацию автоматической угольной блочно-модульной котельной, тепловой мощностью 1200 кВт (3х400 кВт)</div>
+                </div>
+                <div class="information__slider-item">
+                    <div class="information__slider-img">
+                        <img src="./img/our-advantages/our-advantages_background.png" alt="information-image">
+                    </div>
+                    <div class="information__slider-subtitle">Спасск-Дальний, Приморский край</div>
+                    <div class="information__slider-title">Автоматическая блочно-модульная котельная SYNERGY 1200</div>
+                    <div class="information__slider-descr">Изготовление, поставка и запуск в эксплуатацию автоматической угольной блочно-модульной котельной, тепловой мощностью 1200 кВт (3х400 кВт)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="catalog">
+        <div class="container-main">
+            <div class="catalog__title">Каталог продукции</div>
+            <div class="catalog__line line-block"></div>
+            <div class="catalog__wrap">
+                <div class="catalog__item">
+                    <div class="catalog__img">
+                        <img src="" alt="catalog-item-img">
+                    </div>
+                    <div class="catalog__name">БМК</div>
+                    <div class="catalog__descr">Автоматические угольные блочно-модульные котельные</div>
+                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                </div>
+                <div class="catalog__item">
+                    <div class="catalog__img">
+                        <img src="" alt="catalog-item-img">
+                    </div>
+                    <div class="catalog__name">SYNERGY</div>
+                    <div class="catalog__descr">Автоматические угольные котлы длительного горения</div>
+                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                </div>
+                <div class="catalog__item">
+                    <div class="catalog__img">
+                        <img src="" alt="catalog-item-img">
+                    </div>
+                    <div class="catalog__name">SYNERGY steam</div>
+                    <div class="catalog__descr">Паровые автоматические угольные котлы длительного горения</div>
+                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                </div>
+                <div class="catalog__item">
+                    <div class="catalog__img">
+                        <img src="" alt="catalog-item-img">
+                    </div>
+                    <div class="catalog__name">УВКм</div>
+                    <div class="catalog__descr">Водогрейные твердотопливные котлы, оснащённые механизированной топкой с наклонно-переталкивающей колосниковой решеткой</div>
+                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                </div>
+                <div class="catalog__item">
+                    <div class="catalog__img">
+                        <img src="" alt="catalog-item-img">
+                    </div>
+                    <div class="catalog__name">УВКр</div>
+                    <div class="catalog__descr">Водогрейные твердотопливные котлы, оснащенные топкой ручного обслуживания</div>
+                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                </div>
+                <div class="catalog__item">
+                    <div class="catalog__img">
+                        <img src="" alt="catalog-item-img">
+                    </div>
+                    <div class="catalog__name">УВКа</div>
+                    <div class="catalog__descr">Водогрейные жидкотопливные автоматизированные котлы с камерной топкой</div>
+                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="reviews">
+        <div class="container-main">
+            <div class="reviews__title">Отзывы наших клиентов</div>
+            <div class="reviews__line line-block"></div>
+            <div class="reviews__descr">Краткий текст про отзывы и про доверие к ним</div>
+            <div class="reviews__block">
+                <div class="reviews__item">
+                    <div class="reviews__mess">
+                        Краткий текст отзыва на несколько 
+                        строчек. Краткий текст отзыва на
+                        несколько строчек. Краткий текст отзыва
+                        на несколько строчек. Краткий текст
+                        отзыва на несколько строчек.
+                    </div>
+                    <div class="reviews__cart">
+                        <div class="reviews__cart-image">
+                            <div class="reviews__cart-img">
+                                <img src="./icons/reviews/review_icon.png" alt="cart-img">
+                            </div>
+                        </div>
+                        <div class="reviews__cart-text">
+                            <div class="reviews__cart-name">Иванов Иван Иванович</div>
+                            <div class="reviews__cart-descr">Директор компании ООО "Рога и копыта"</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__mess">
+                        Краткий текст отзыва на несколько 
+                        строчек. Краткий текст отзыва на
+                        несколько строчек. Краткий текст отзыва
+                        на несколько строчек. Краткий текст
+                        отзыва на несколько строчек.
+                    </div>
+                    <div class="reviews__cart">
+                        <div class="reviews__cart-image">
+                            <div class="reviews__cart-img">
+                                <img src="./icons/reviews/review_icon.png" alt="cart-img">
+                            </div>
+                        </div>
+                        <div class="reviews__cart-text">
+                            <div class="reviews__cart-name">Иванов Иван Иванович</div>
+                            <div class="reviews__cart-descr">Директор компании ООО "Рога и копыта"</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__mess">
+                        Краткий текст отзыва на несколько 
+                        строчек. Краткий текст отзыва на
+                        несколько строчек. Краткий текст отзыва
+                        на несколько строчек. Краткий текст
+                        отзыва на несколько строчек.
+                    </div>
+                    <div class="reviews__cart">
+                        <div class="reviews__cart-image">
+                            <div class="reviews__cart-img">
+                                <img src="./icons/reviews/review_icon.png" alt="cart-img">
+                            </div>
+                        </div>
+                        <div class="reviews__cart-text">
+                            <div class="reviews__cart-name">Иванов Иван Иванович</div>
+                            <div class="reviews__cart-descr">Директор компании ООО "Рога и копыта"</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="download-katalog">
+        <div class="container-main">
+            <div class="download-katalog__title">Скачайте каталог наших решений</div>
+            <div class="download-katalog__line line-block"></div>
+            <p class="download-katalog__descr">Вы можете скачать каталог в PDF формате просто нажав на ссылку ниже</p>
+            <a href="" class="download-katalog__btn">Скачать</a>
+        </div>
+    </div>
+    <div class="feedback">
+        <div class="container-main">
+            <div class="feedback__title">Закажите звонок специалиста</div>
+            <div class="feedback__line line-block"></div>
+            <p class="feedback__descr">Для получения бесплатной консультации по любому из наших продуктов</p>
+            <form action="#" method="POST" class="feedback__form">
+                <div class="feedback__form-main">
+                    <input type="text" class="feedback__inputs" autocomplete="off" name="name" placeholder="Имя">
+                    <input type="text" class="feedback__inputs" name="surname" placeholder="Фамилия">
+                    <input type="text" class="feedback__inputs" name="email" placeholder="E-mail">
+                    <input type="text" class="feedback__inputs" autocomplete="off" name="question" placeholder="Ваш вопрос">
+                </div>
+                <button type="submit" class="feedback__submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <div class="map">
+        <div class="container">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4bd84a58fe20496d22d57bcf9265ddff8626ecb6e1a9f07cf5e591baaa452e91&amp;source=constructor" width="100%" height="720" frameborder="0"></iframe>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrap">
+                <div class="footer__logo-header">
+                    <img src="./icons/logo-black-text.png" alt="logotype">
+                </div>
+                <div class="footer__menus">
+                    <nav class="footer__menu menu">
+                        <ul class="footer__menu-list menu__list">
+                            <li class="footer__menu-item menu__item">
+                                <a href="">Главная страница</a>
+                            </li>
+                            <li class="footer__menu-item menu__item">
+                                <a href="">О компании</a>
+                            </li>
+                            <li class="footer__menu-item menu__item">
+                                <a href="">Каталог</a>
+                            </li>
+                            <li class="footer__menu-item menu__item">
+                                <a href="">Услуги</a>
+                            </li>
+                            <li class="footer__menu-item menu__item">
+                                <a href="">Новости</a>
+                            </li>
+                            <li class="footer__menu-item menu__item">
+                                <a href="">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__submenu">
+                        <ul class="footer__submenu-list">
+                            <li class="footer__submenu-item">
+                                <img src="./icons/arrow-menu.png" alt="arrow">
+                                <a href="#" >БМК</a>
+                            </li>
+                            <li class="footer__submenu-item">
+                                <img src="./icons/arrow-menu.png" alt="arrow">
+                                <a href="#" >SYNERGY</a>
+                            </li>
+                            <li class="footer__submenu-item">
+                                <img src="./icons/arrow-menu.png" alt="arrow">
+                                <a href="#" >SYNERGY steam</a>
+                            </li>
+                            <li class="footer__submenu-item">
+                                <img src="./icons/arrow-menu.png" alt="arrow">
+                                <a href="#" >Ещё пункт меню</a>
+                            </li>
+                            <li class="footer__submenu-item">
+                                <img src="./icons/arrow-menu.png" alt="arrow">
+                                <a href="#" >Продукция</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__info">
+                    <div class="footer__contacts">
+                        <p class="footer__contacts-city">Россия, г. Город, ул. Карла Маркса 18, офис 35</p>
+                        <a href="tel:" class="footer__contacts-number">8 (800) 800-80-80</a>
+                        <a href="mailto:" class="footer__contacts-mail">mail@email.com</a>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-elem"><img src="./icons/social/facebook.png" alt="social-link"></a>
+                        <a href="#" class="footer__social-elem"><img src="./icons/social/twitter.png" alt="social-link"></a>
+                        <a href="#" class="footer__social-elem"><img src="./icons/social/google-plus.png" alt="social-link"></a>
+                        <a href="#" class="footer__social-elem"><img src="./icons/social/pinterest.png" alt="social-link"></a>
+                        <a href="#" class="footer__social-elem"><img src="./icons/social/instagram.png" alt="social-link"></a>
+                        <a href="#" class="footer__social-elem"><img src="./icons/social/stumbleupon.png" alt="social-link"></a>
+                        <a href="#" class="footer__social-elem"><img src="./icons/social/rss.png" alt="social-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

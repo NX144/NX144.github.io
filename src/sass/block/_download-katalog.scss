@@ -1,0 +1,45 @@
+.download-katalog {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: url('../../img/main/main-background.jpg') center/cover no-repeat;
+    padding: 90px 0 75px 0;
+    text-align: center;
+    &__title {
+        font-size: 43px;
+        color: #fff;
+    }
+    &__line {
+        margin: 0 auto;
+        margin-top: 28px;
+        background-color: #fff;
+    }
+    &__descr {
+        margin-top: 30px;
+        font-size: 18px;
+        color: rgba(#fff, .8);
+    }
+    &__btn {
+        width: 163px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 18px;
+        text-decoration: none;
+        margin-top: 40px;
+        transition: .2s all ease;
+        &:hover {
+            cursor: pointer;
+            background-color: #fff;
+            color: #000;
+        }
+        &:active {
+            border-color: #000;
+            transition: none;
+        }
+    }
+}
