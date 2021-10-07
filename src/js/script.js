@@ -7,8 +7,8 @@ window.onload = function() {
         nav: true,
         center: true,
         navText: [
-            "<img src='../icons/right-arrow.png' alt='catalog-item-img' class='information__arrow information__arrow-left' ></img>",
-            "<img src='../icons/right-arrow.png' alt='catalog-item-img' class='information__arrow information__arrow-right' ></img>"
+            "<img src='./icons/right-arrow.png' alt='catalog-item-img' class='information__arrow information__arrow-left' ></img>",
+            "<img src='./icons/right-arrow.png' alt='catalog-item-img' class='information__arrow information__arrow-right' ></img>"
         ],
         dots: false,
     });
