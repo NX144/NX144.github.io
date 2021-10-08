@@ -6,6 +6,7 @@
 @import './fonts/_fonts';
 
 // Sections / Blocks
+@import './block/_button';
 @import './block/_main';
 @import './block/_menu';
 @import './block/_partners';
@@ -19,6 +20,7 @@
 @import './block/_download-katalog';
 @import './block/_feedback';
 @import './block/_footer';
+@import './block/_media';
 
 
 body {
@@ -30,13 +32,13 @@ body {
 }
 
 .container {
-    width: 1680px;
+    max-width: 1680px;
     height: 100%;
     margin: 0 auto;
     position: relative;
 }
 .container-main {
-    width: 1310px;
+    max-width: 1310px;
     height: 100%;
     margin: 0 auto;
     position: relative;

@@ -54,10 +54,15 @@ gulp.task('icons', function () {
 //         .pipe(gulp.dest("dist/mailer"));
 // });
 
+gulp.task('fonts', function () {
+    return gulp.src("src/fonts/**/*")
+        .pipe(gulp.dest("dist/fonts"));
+});
+
 gulp.task('images', function () {
     return gulp.src("src/img/**/*")
         // .pipe(imagemin())
         .pipe(gulp.dest("dist/img"));
 });
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'html', 'icons', 'images')); // 'mailer', 
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'html', 'icons', 'images', 'fonts')); // 'mailer', 

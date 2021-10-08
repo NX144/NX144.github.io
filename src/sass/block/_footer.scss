@@ -7,6 +7,9 @@
         display: flex;
         justify-content: space-between;
     }
+    &__logo-header {
+        height: 80px;
+    }
     &__menus {
         max-width: 790px;
         display: flex;

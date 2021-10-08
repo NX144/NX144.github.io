@@ -1,0 +1,39 @@
+@media(max-width: 1720px) {
+    .menu {
+        &__item {
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+    .main {
+        &__header {
+            width: 95%;
+            margin: 0 auto;
+        }
+        &__hr {
+            width: 95%;
+        }
+        &__logo {
+            left: -135px;
+            width: 420px;
+        }
+        &__title {
+            margin-top: 34px;
+            font-size: 41px;
+        }
+        &__line {
+            margin-top: 25px;
+        }
+        &__descr {
+            margin-top: 26px;
+            font-size: 21px;
+        }
+        &__btn {
+            width: 195px;
+            height: 60px;
+            margin-top: 44px;
+            font-size: 20px;
+        }
+    }
+}

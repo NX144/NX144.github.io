@@ -2,9 +2,14 @@
     width: 100%;
     height: auto;
     position: relative;
-    padding: 220px 0 150px 0;
+    padding: 190px 0 160px 0;
+    &__title-main {
+        text-align: center;
+        font-size: 40px;
+    }
     &__line {
         margin: 0 auto;
+        margin-top: 35px;
     }
     &__stats {
         width: 100%;

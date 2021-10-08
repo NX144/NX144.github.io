@@ -10,6 +10,7 @@
         align-items: center;
         justify-content: space-between;
         &-logo {
+            display: block;
             width: 202px;
             height: 65px;
             img {
@@ -38,6 +39,7 @@
         left: -185px;
     }
     &__title {
+        margin: 0;
         margin-top: 40px;
         color: #fff;
         font-size: 43px;
@@ -60,21 +62,16 @@
         width: 217px;
         height: 65px;
         margin-top: 47px;
-        background-color: transparent;
-        border: 2px solid #fff;
         // Text
         color: #fff;
+        border-color: #fff;
         font-size: 21px;
-        font-family: inherit;
-        transition: .2s all ease;
         &:hover {
-            cursor: pointer;
             background-color: #fff;
             color: #000;
         }
         &:active {
             border-color: #000;
-            transition: none;
         }
     }
     &__form {

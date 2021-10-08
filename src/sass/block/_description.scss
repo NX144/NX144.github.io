@@ -40,6 +40,14 @@
             }
         }
     }
+    &__image {
+        width: 995px;
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
     &__tabcontent {
         width: 1500px;
         height: auto;

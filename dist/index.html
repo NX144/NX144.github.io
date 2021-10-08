@@ -11,9 +11,9 @@
     <div class="main">
         <div class="container">
             <header class="main__header">
-                <div class="main__header-logo">
+                <a href="#" class="main__header-logo">
                     <img src="./icons/logo-mono.png" alt="logotype">
-                </div>
+                </a>
                 <nav class="main__menu menu">
                     <ul class="main__menu-list menu__list">
                         <li class="main__menu-item menu__item">
@@ -44,7 +44,7 @@
                     <h1 class="main__title">Завод котельного оборудования</h1>
                     <div class="main__line"></div>
                     <div class="main__descr">Краткий текст про завод на несколько строчек.  Краткий текст про завод на несколько строчек. Краткий текст про завод на несколько строчек</div>
-                    <button class="main__btn">Узнать больше</button>
+                    <button class="main__btn main-button">Узнать больше</button>
                 </div>
                 <form action="#" method="POST" class="main__form form">
                     <div class="main__form-wrap">
@@ -105,14 +105,15 @@
                             экономичность эксплуатации.
                         </div>
                     </div>
-                    <img src="./img/description/block.png" alt="description-image">
+                    <div class="description__image">
+                        <img src="./img/description/block.png" alt="description-image">
+                    </div>
                 </div>
                 <div class="description__tabcontent" id="2">
                     <div class="description__info">
-                        <div class="description__title">Сколько стоит 2 кВт  тепловой энергии?</div>
+                        <div class="description__title">Сколько стоит 2000Вт  тепловой энергии?</div>
                         <div class="description__text">
-                            Снижение затрат на отопление — приоритет для 
-                            каждого собственника. В настоящее время уголь — 
+                            В настоящее время уголь — 
                             самый дешевый вид топлива. Другие энергоресурсы (ДТ, 
                             газ, мазут, электричество) только растут в цене и не 
                             способны конкурировать с современной угольной 
@@ -122,24 +123,25 @@
                             экономичность эксплуатации.
                         </div>
                     </div>
-                    <img src="./img/description/block.png" alt="description-image">
+                    <div class="description__image">
+                        <img src="./img/description/block2.png" alt="description-image">
+                    </div>
                 </div>
                 <div class="description__tabcontent" id="3">
                     <div class="description__info">
-                        <div class="description__title">Сколько стоит 3 кВт  тепловой энергии?</div>
+                        <div class="description__title">Сколько стоит 3 кВт  энергии?</div>
                         <div class="description__text">
                             Снижение затрат на отопление — приоритет для 
                             каждого собственника. В настоящее время уголь — 
                             самый дешевый вид топлива. Другие энергоресурсы (ДТ, 
                             газ, мазут, электричество) только растут в цене и не 
                             способны конкурировать с современной угольной 
-                            энергетикой. Мы гарантируем снижение стоимости 
-                            тепловой энергии при установке нашего оборудования, 
-                            которое обеспечивает стабильно высокий КПД и 
-                            экономичность эксплуатации.
+                            энергетикой.
                         </div>
                     </div>
-                    <img src="./img/description/block.png" alt="description-image">
+                    <div class="description__image">
+                        <img src="./img/description/block3.png" alt="description-image">
+                    </div>
                 </div>
             </div>
         </div>
@@ -275,6 +277,7 @@
     </div>
     <div class="information">
         <div class="container-main">
+            <div class="information__title-main">Наша работа</div>
             <div class="information__line line-block"></div>
             <div class="information__stats">
                 <div class="information__item">
@@ -337,7 +340,7 @@
                     </div>
                     <div class="catalog__name">БМК</div>
                     <div class="catalog__descr">Автоматические угольные блочно-модульные котельные</div>
-                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                    <a href="#" class="catalog__btn main-button">Смотреть всё</a>
                 </div>
                 <div class="catalog__item">
                     <div class="catalog__img">
@@ -345,7 +348,7 @@
                     </div>
                     <div class="catalog__name">SYNERGY</div>
                     <div class="catalog__descr">Автоматические угольные котлы длительного горения</div>
-                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                    <a href="#" class="catalog__btn main-button">Смотреть всё</a>
                 </div>
                 <div class="catalog__item">
                     <div class="catalog__img">
@@ -353,7 +356,7 @@
                     </div>
                     <div class="catalog__name">SYNERGY steam</div>
                     <div class="catalog__descr">Паровые автоматические угольные котлы длительного горения</div>
-                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                    <a href="#" class="catalog__btn main-button">Смотреть всё</a>
                 </div>
                 <div class="catalog__item">
                     <div class="catalog__img">
@@ -361,7 +364,7 @@
                     </div>
                     <div class="catalog__name">УВКм</div>
                     <div class="catalog__descr">Водогрейные твердотопливные котлы, оснащённые механизированной топкой с наклонно-переталкивающей колосниковой решеткой</div>
-                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                    <a href="#" class="catalog__btn main-button">Смотреть всё</a>
                 </div>
                 <div class="catalog__item">
                     <div class="catalog__img">
@@ -369,7 +372,7 @@
                     </div>
                     <div class="catalog__name">УВКр</div>
                     <div class="catalog__descr">Водогрейные твердотопливные котлы, оснащенные топкой ручного обслуживания</div>
-                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                    <a href="#" class="catalog__btn main-button">Смотреть всё</a>
                 </div>
                 <div class="catalog__item">
                     <div class="catalog__img">
@@ -377,7 +380,7 @@
                     </div>
                     <div class="catalog__name">УВКа</div>
                     <div class="catalog__descr">Водогрейные жидкотопливные автоматизированные котлы с камерной топкой</div>
-                    <a href="#" class="catalog__btn">Смотреть всё</a>
+                    <a href="#" class="catalog__btn main-button">Смотреть всё</a>
                 </div>
             </div>
         </div>
@@ -456,7 +459,7 @@
             <div class="download-katalog__title">Скачайте каталог наших решений</div>
             <div class="download-katalog__line line-block"></div>
             <p class="download-katalog__descr">Вы можете скачать каталог в PDF формате просто нажав на ссылку ниже</p>
-            <a href="" class="download-katalog__btn">Скачать</a>
+            <a href="" class="download-katalog__btn main-button">Скачать</a>
         </div>
     </div>
     <div class="feedback">
@@ -471,7 +474,7 @@
                     <input type="text" class="feedback__inputs" name="email" placeholder="E-mail">
                     <input type="text" class="feedback__inputs" autocomplete="off" name="question" placeholder="Ваш вопрос">
                 </div>
-                <button type="submit" class="feedback__submit">Отправить</button>
+                <button type="submit" class="feedback__submit main-button">Отправить</button>
             </form>
         </div>
     </div>
@@ -483,9 +486,9 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__wrap">
-                <div class="footer__logo-header">
+                <a href="#" class="footer__logo-header">
                     <img src="./icons/logo-black-text.png" alt="logotype">
-                </div>
+                </a>
                 <div class="footer__menus">
                     <nav class="footer__menu menu">
                         <ul class="footer__menu-list menu__list">

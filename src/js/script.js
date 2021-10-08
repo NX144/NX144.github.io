@@ -17,15 +17,25 @@ window.onload = function() {
     const tabs = document.querySelectorAll('.description__tab'),
           tabContents = document.querySelectorAll('.description__tabcontent');
     tabContents[0].style.display = 'flex';
+    tabContents[0].style.opacity = '1';
     tabs.forEach(item => {
         item.addEventListener('click', function(e) {
-            let tabNumber = this.getAttribute('data-num');
-            for(let i = 0; i < tabs.length; i++) {
-                tabs[i].classList.remove('description__tab-active');
-                tabContents[i].style.display = 'none';
+            if(!this.classList.contains('description__tab-active')) {
+                let tabNumber = this.getAttribute('data-num');
+                for(let i = 0; i < tabs.length; i++) {
+                    tabs[i].classList.remove('description__tab-active');
+                    tabContents[i].style.display = 'none';
+                    tabContents[i].style.opacity = '0';
+                }
+                document.getElementById(tabNumber).style.display = 'flex';
+                let anim = document.getElementById(tabNumber).animate([
+                    {opacity: '1'}
+                ], 500);
+                anim.addEventListener('finish', function() {
+                    document.getElementById(tabNumber).style.opacity = '1';
+                });
+                this.classList.add('description__tab-active');
             }
-            document.getElementById(tabNumber).style.display = 'flex';
-            this.classList.add('description__tab-active');
         });
     });
 };

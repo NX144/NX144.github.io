@@ -1,20 +1,19 @@
 @font-face {
     font-family: 'Monitorica';
-    src: url('../../fonts/Monitorica-Rg.ttf') format('truetype');
+    src: 
+        local('../../fonts/Monitorica-Rg.ttf') format('truetype'),
+        url('../../fonts/Monitorica-Rg.woff2') format("woff2"),
+        url('../../fonts/Monitorica-Rg.woff') format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face {
-    font-family: 'Monitorica Bold';
-    src: url('../../fonts/Monitorica-Bd.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'MyriadPro Regular';
-    src: url('../../fonts/MyriadProRegular.ttf') format('truetype');
+    font-family: 'Monitorica-Bold';
+    src: 
+        local('../../fonts/Monitorica-Bd.ttf') format('truetype'),
+        url('../../fonts/Monitorica-Bd.woff2') format("woff2"),
+        url('../../fonts/Monitorica-Bd.woff') format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
