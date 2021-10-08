@@ -2,10 +2,12 @@
     width: 100%;
     height: auto;
     position: relative;
+    font-family: 'Monitorica-Bold', sans-serif;
     &__wrap {
         padding: 145px 176px 115px 176px;
     }
     &__title {
+        width: 40%;
         font-size: 34px;
         line-height: 51.5px;
     }

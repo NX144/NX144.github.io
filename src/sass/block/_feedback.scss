@@ -4,6 +4,7 @@
     position: relative;
     padding: 130px 0 91px 0;
     text-align: center;
+    font-family: 'Monitorica-Bold';
     &__title {
         font-size: 43px;
     }
@@ -36,7 +37,7 @@
         padding: 0 5px;
         font-family: inherit;
         &::placeholder {
-            color: rgb(65, 65, 65);
+            color: #000;
             font-family: inherit;
             font-size: 18px;
             letter-spacing: -.25px;

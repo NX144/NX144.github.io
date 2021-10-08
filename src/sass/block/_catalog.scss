@@ -4,6 +4,7 @@
     position: relative;
     background-color: #F5F5F5;
     padding: 133px 0 115px 0;
+    font-family: 'Monitorica-Bold';
     &__title {
         font-size: 40px;
         text-align: center;
@@ -56,6 +57,7 @@
         margin-top: 22px;
         border-color: #ff4000;
         color: #000;
+        font-family: 'Monitorica-Bold', sans-serif;
         &:hover {
             background-color: #ff4000;
             color: #fff;
