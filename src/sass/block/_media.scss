@@ -7,6 +7,8 @@
         }
     }
     .main {
+        min-height: unset;
+        padding-bottom: 130px;
         &__header {
             width: 95%;
             margin: 0 auto;
@@ -23,10 +25,10 @@
             font-size: 41px;
         }
         &__line {
-            margin-top: 25px;
+            margin-top: 27px;
         }
         &__descr {
-            margin-top: 26px;
+            margin-top: 29px;
             font-size: 21px;
         }
         &__btn {
@@ -34,6 +36,1011 @@
             height: 60px;
             margin-top: 44px;
             font-size: 20px;
+        }
+        &__form {
+            width: 400px;
+            &-title {
+                font-size: 32px;
+            }
+            &-wrap {
+                padding: 35px 50px 30px;
+            }
+            &-btn {
+                height: 60px;
+            }
+            &-input {
+                margin-top: 27px;
+            }
+        }
+    }
+    .partners {
+        &__title {
+            font-size: 23px;
+        }
+        &__descr {
+            font-size: 17px;
+        }
+        &__info {
+            width: 22%;
+        }
+        &__list {
+            width: 77%;
+            padding: 0;
+            padding-right: 40px;
+        }
+    }
+    .description {
+        &__wrap {
+            width: 96%;
+            margin: 0 auto;
+        }
+        &__tabs {
+            width: 125px;
+        }
+        &__tab {
+            height: 125px;
+        }
+        &__tabcontent {
+            width: 87%;
+            justify-content: space-between;
+        }
+        &__info {
+            width: 30%;
+        }
+        &__title {
+            font-size: 28px;
+        }
+        &__text {
+            font-size: 17px;
+            line-height: 26px;
+        }
+        &__image {
+            width: 65%;
+            img {
+                max-width: 700px;
+            }
+        }
+    }
+    .advantages-list {
+        &__title {
+            width: 38%;
+            font-size: 33px;
+            line-height: 42px;
+        }
+        &__wrap {
+            padding: 145px 176px 110px 176px;
+        }
+        &__item {
+            width: 239px;
+            min-height: 235px;
+            margin-right: 67px;
+        }
+        &__name {
+            margin-top: 14px;
+            margin-bottom: 0;
+            font-size: 23px;
+        }
+        &__descr {
+            font-size: 17px;
+            margin: 0;
+            margin-top: 16px;
+        }
+    }
+    .our-advantages {
+        padding: 113px 0;
+        &__title {
+            font-size: 33px;
+        }
+    }
+    .information {
+        padding: 150px 0 150px 0;
+        &__title {
+            font-size: 96px;
+            margin-right: 9px;
+            &-main {
+                font-size: 38px;
+            }
+        }
+        .owl-prev {
+            top: 11%;
+            transform: scale(.8);
+        }
+        .owl-next {
+            top: 11%;
+            transform: scale(.8);
+        }
+    }
+    .catalog {
+        padding-top: 125px;
+        &__title {
+            font-size: 38px;
+        }
+        &__line {
+            margin-top: 42px;
+        }
+        &__item {
+            width: 330px;
+        }
+        &__img {
+            height: 380px;
+        }
+        &__name {
+            margin-top: 25px;
+            font-size: 32px;
+        }
+    }
+    .reviews {
+        padding: 120px 0 85px 0;
+        &__title {
+            font-size: 36px;
+        }
+        &__line {
+            margin-top: 30px;
+        }
+        &__descr {
+            margin-top: 30px;
+        }
+        &__block {
+            margin-top: 60px;
+        }
+    }
+    .download-katalog {
+        padding: 85px 0 75px 0;
+        &__title {
+            font-size: 40px;
+        }
+        &__line {
+            margin-top: 25px;
+        }
+        &__btn {
+            width: 150px;
+            height: 45px;
+        }
+    }
+    .feedback {
+        padding: 120px 0 95px 0;
+        &__title {
+            font-size: 40px;
+        }
+        &__line {
+            margin-top: 27px;
+        }
+        &__descr {
+            margin-top: 33px;
+        }
+        &__form {
+            margin-top: 95px;
+        }
+    }
+    .map {
+        height: 550px;
+        iframe {
+            height: inherit;
+        }
+    }
+    .footer {
+        padding: 58px 0;
+        &__wrap {
+            width: 95%;
+            margin: 0 auto;
+        }
+        &__contacts {
+            &-city {
+                margin-top: 11px;
+            }
+        }
+    }
+}
+
+@media(max-width: 1529px) {
+    .main {
+        padding-top: 15px;
+        padding-bottom: 110px;
+        &__header {
+            width: 90%;
+            &-logo {
+                width: 182px;
+            }
+        }
+        &__hr {
+            width: 90%;
+            margin-top: 10px;
+        }
+        &__content {
+            margin-top: 100px;
+        }
+        &__info {
+            width: 420px;
+        }
+        &__logo {
+            left: -120px;
+            width: 340px;
+        }
+        &__title {
+            margin-top: 24px;
+            font-size: 33px;
+        }
+        &__line {
+            margin-top: 28px;
+        }
+        &__descr {
+            margin-top: 30px;
+            font-size: 19px;
+        }
+        &__btn {
+            width: 180px;
+            height: 55px;
+            margin-top: 50px;
+            font-size: 19px;
+        }
+        &__form {
+            width: 340px;
+            &-wrap {
+                padding: 30px 37px 20px;
+            }
+            &-title {
+                font-size: 29px;
+                line-height: 33px;
+            }
+            &-input {
+                margin-top: 20px;
+                font-size: 18px;
+                &::placeholder {
+                    font-size: 18px;
+                }
+            }
+            &-btn {
+                height: 55px;
+                font-size: 20px;
+            }
+        }
+        &__checkbox {
+            margin-top: 20px;
+            &-label {
+                font-size: 17px;
+            }
+        }
+    }
+    .toggle__label {
+        &::after {
+            width: 1.7em;
+            height: 1.7em;
+        }
+    }
+    .menu {
+        width: 570px;
+        &__item {
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+    .partners {
+        padding-top: 25px;
+        padding-bottom: 22px;
+        &__info {
+            width: 29%;
+            margin-right: 40px;
+            padding-left: 40px;
+        }
+        &__title {
+            font-size: 22px;
+        }
+        &__descr {
+            font-size: 16px;
+            margin-top: 12px;
+        }
+        &__list {
+            width: 62%;
+            padding-right: 19px;
+            li {
+                width: 115px;
+            }
+        }
+    }
+    .description {
+        padding: 120px 0 78px 0;
+        &__wrap {
+            width: 96%;
+        }
+        &__tabs {
+            width: 115px;
+            margin-right: 35px;
+        }
+        &__tab {
+            height: 115px;
+        }
+        &__tabcontent {
+            width: 87%;
+        }
+        &__info {
+            width: 34%;
+        }
+        &__title {
+            font-size: 26px;
+            margin-top: 10px;
+        }
+        &__text {
+            font-size: 17px;
+            line-height: 24px;
+            margin-top: 24px;
+        }
+        &__image {
+            width: 65%;
+            align-items: center;
+            img {
+                max-width: 630px;
+                height: fit-content;
+            }
+        }
+    }
+    .advantages-list {
+        &__wrap {
+            padding: 115px 176px 105px 176px;
+        }
+        &__title {
+            width: 49%;
+            font-size: 30px;
+            line-height: 38px;
+        }
+        &__line {
+            margin-top: 24px;
+        }
+        &__block {
+            margin-top: 25px;
+        }
+        &__item {
+            width: 22%;
+            min-height: 225px;
+            margin-right: 30px;
+        }
+        &__img {
+            &-wrap {
+                width: 50px;
+                height: 66px;
+            }
+        }
+        &__name {
+            margin-top: 9px;
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 16px;
+            margin: 0;
+            margin-top: 13px;
+        }
+    }
+    .our-advantages {
+        padding: 0;
+        .container-main {
+            max-width: 1680px;
+        }
+        &__wrap {
+            width: auto;
+            padding: 115px 176px 105px 176px;
+        }
+        &__info {
+            width: 48%;
+        }
+        &__image {
+            width: 48%;
+            height: auto;
+            margin-top: 90px;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        &__title {
+            font-size: 30px;
+        }
+        &__line {
+            margin-top: 22px;
+        }
+        &__descr {
+            font-size: 17px;
+            margin-top: 23px;
+            line-height: 26px;
+        }
+        &__block {
+            height: auto;
+            margin-top: 35px;
+        }
+        &__item {
+            width: 47%;
+            height: auto;
+            min-height: 105px;
+        }
+        &__img {
+            &-wrap {
+                width: 40px;
+                height: 40px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        &__text {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    }
+    .information {
+        padding: 120px 0 100px 0;
+        .container-main {
+            max-width: 1680px;
+        }
+        &__title {
+            font-size: 82px;
+            margin-right: 8px;
+            &-main {
+                font-size: 36px;
+            }
+        }
+        &__line {
+            margin-top: 35px;
+        }
+        &__stats {
+            width: 1150px;
+            margin: 0 auto;
+            height: 70px;
+            margin-top: 50px;
+        }
+        &__item {
+            width: 22rem;
+            &:first-child {
+                width: 25rem;
+            }
+        }
+        &__descr {
+            font-size: 17px;
+            line-height: 22px;
+        }
+        .owl-item {
+            margin-right: 55px;
+        }
+        &__slider {
+            width: 90%;
+            height: auto;
+            max-height: 415px;
+            margin: 0 auto;
+            margin-top: 60px;
+            &-item {
+                width: 95%;
+            }
+            &-subtitle {
+                margin-top: 18px;
+                font-size: 18px;
+            }
+            &-title {
+                margin-top: 6px;
+                font-size: 22px;
+                line-height: 25px;
+            }
+            &-descr {
+                margin-top: 10px;
+                font-size: 17px;
+            }
+        }
+        .owl-next {
+            right: -5%;
+        }
+        .owl-prev {
+            left: -5%
+        }
+    }
+    .catalog {
+        padding: 115px 0 105px 0;
+        &__title {
+            font-size: 35px;
+        }
+        &__line {
+            margin-top: 30px;
+        }
+        &__wrap {
+            margin-top: 50px;
+        }
+        &__item {
+            width: 300px;
+            margin-right: 50px;
+            margin-top: 65px;
+        }
+        &__img {
+            height: 350px;
+        }
+        &__name {
+            margin-top: 20px;
+            font-size: 28px;
+        }
+        &__descr {
+            margin-top: 8px;
+            font-size: 17px;
+        }
+        &__btn {
+            width: 130px;
+            height: 37px;
+            margin-top: 22px;
+            font-size: 17px;
+        }
+    }
+    .reviews {
+        padding: 110px 0 85px 0;
+        &__title {
+            font-size: 35px;
+        }
+        &__line {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        &__block {
+            width: 100%;
+        }
+        &__item {
+            width: 335px;
+            margin-right: 0;
+        }
+        &__mess {
+            width: 335px;
+            font-size: 17px;
+            padding: 25px 33px;
+        }
+        &__cart {
+            margin-top: 28px;
+            &-text {
+                padding-top: 14px;
+            }
+            &-name {
+                font-size: 21px;
+            }
+            &-descr {
+                margin-top: 5px;
+                font-size: 18px;
+            }
+        }
+    }
+    .download-katalog {
+        padding: 80px 0 70px 0;
+        &__title {
+            font-size: 35px;
+        }
+        &__line {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        &__btn {
+            width: 140px;
+            height: 40px;
+            font-size: 17px;
+        }
+    }
+    .feedback {
+        padding: 120px 0 95px 0;
+        &__title {
+            font-size: 35px;
+        }
+        &__line {
+            margin-top: 25px;
+        }
+        &__descr {
+            margin-top: 30px;
+            font-size: 17px;
+        }
+        &__form {
+            width: 95%;
+            margin: 0 auto;
+            margin-left: 5%;
+            margin-top: 80px;
+            &-main {
+                width: 100%;
+            }
+        }
+        &__inputs {
+            height: 55px;
+            width: 45%;
+        }
+        &__submit {
+            width: 152px;
+            height: 45px;
+            margin: 0 auto;
+            margin-right: 46%;
+            margin-top: 45px;
+        }
+    }
+    .map {
+        height: 450px;
+    }
+    .footer {
+        padding: 48px 0;
+        &__logo {
+            &-header {
+                width: 180px;
+                height: 80px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        &__submenu {
+            padding-left: 150px;
+        }
+        &__info {
+            max-width: 300px;
+            text-align: right;
+        }
+        &__contacts {
+            &-city {
+                margin-top: 10px;
+                font-size: 20px;
+            }
+            &-number {
+                font-size: 28px;
+            }
+        }
+    }
+}
+@media(max-width: 1350px) {
+    .information {
+        .owl-item {
+            margin-right: 35px;
+        }
+        &__slider {
+            &-item {
+                width: 320px;
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+    .main {
+        padding-top: 17px;
+        padding-bottom: 95px;
+        &__header {
+            &-logo {
+                width: 170px;
+            }
+        }
+        &__content {
+            padding: 0;
+            width: 86%;
+            margin: 0 auto;
+            padding-left: 5%;
+            margin-top: 70px;
+        }
+        &__info {
+            width: 420px;
+        }
+        &__logo {
+            left: 0;
+            width: 300px;
+        }
+        &__title {
+            margin-top: 24px;
+            font-size: 31px
+        }
+        &__line {
+            margin-top: 28px;
+        }
+        &__descr {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+        &__btn {
+            width: 170px;
+            height: 55px;
+            margin-top: 50px;
+            font-size: 18px;
+        }
+        &__form {
+            width: 330px;
+            &-wrap {
+                padding: 30px 37px 20px;
+            }
+            &-title {
+                font-size: 28px;
+                line-height: 33px;
+            }
+        }
+        &__checkbox {
+            &-label {
+                font-size: 16px;
+                &::after {
+                    width: 1.6em;
+                    height: 1.6em;
+                }
+                &::before {
+                    width: .9em;
+                    height: .40em;
+                    top: .89em;
+                    left: .25em;
+                }
+            }
+        }
+
+    }
+    .partners {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        &__info {
+            width: 29%;
+            margin-right: 40px;
+            padding-left: 40px;
+        }
+        &__title {
+            font-size: 21px;
+        }
+        &__descr {
+            font-size: 15px;
+            margin-top: 7px;
+        }
+        &__list {
+            width: 77%;
+            padding-right: 19px;
+            li {
+                width: 102px;
+            }
+        }
+    }
+    .advantages-list {
+        &__wrap {
+            padding: 105px 0 80px 0;
+            width: 90%;
+            margin: 0 auto;
+        }
+        &__title {
+            font-size: 28px;
+            line-height: 34px;
+        }
+        &__name {
+            margin-top: 7px;
+            font-size: 19px;
+        }
+        &__descr {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+    }
+    .information {
+        padding: 105px 0 85px 0;
+        &__title {
+            font-size: 70px;
+            margin-right: 8px;
+            &-main {
+                font-size: 31px;
+            }
+        }
+        &__descr {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        &__stats {
+            width: 950px;
+            margin-top: 35px;
+        }
+        &__line {
+            margin-top: 25px;
+        }
+        &__item {
+            width: 22rem;
+            &:first-child {
+                width: 26rem;
+            }
+        }
+        &__slider {
+            width: 90%;
+            margin-top: 60px;
+            &-item {
+                width: 270px;
+            }
+            &-subtitle {
+                margin-top: 18px;
+                font-size: 18px;
+            }
+            &-title {
+                margin-top: 5px;
+                font-size: 20px;
+                line-height: 25px;
+            }
+            &-descr {
+                margin-top: 8px;
+                font-size: 16px;
+            }
+        }
+        .owl-item {
+            margin-right: 55px;
+        }
+        .owl-prev {
+            transform: scale(.6);
+            left: -6%;
+            top: 7%;
+        }
+        .owl-next {
+            right: -6%;
+            transform: scale(.6);
+            top: 7%;
+        }
+    }
+    .description {
+        padding: 105px 0 80px 0;
+        &__tabs {
+            width: 95px;
+            margin-right: 25px;
+        }
+        &__tab {
+            height: 95px;
+            font-size: 16px;
+        }
+        &__info {
+            width: 34%;
+        }
+        &__title {
+            font-size: 23px;
+            margin-top: 10px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            margin-top: 12px;
+        }
+        &__image {
+            width: 62%;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    .our-advantages {
+        &__wrap {
+            padding: 115px 0 80px 0;
+            width: 85%;
+            margin: 0 auto;
+        }
+    }
+    .catalog {
+        padding: 115px 0 105px 0;
+        &__title {
+            font-size: 31px;
+        }
+        &__line {
+            margin-top: 30px;
+        }
+        &__wrap {
+            margin-top: 50px;
+        }
+        &__item {
+            width: 260px;
+            margin-right: 50px;
+        }
+        &__img {
+            height: 310px;
+        }
+        &__name {
+            margin-top: 15px;
+            font-size: 25px;
+        }
+        &__descr {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+    }
+    .reviews {
+        padding: 105px 0 85px 0;
+        &__title {
+            font-size: 31px;
+        }
+        &__line {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 25px;
+            font-size: 17px;
+        }
+        &__block {
+            width: 100%;
+            margin-top: 45px;
+        }
+        &__item {
+            width: 31%;
+            margin-right: 0;
+        }
+        &__mess {
+            width: 300px;
+            font-size: 16px;
+            padding: 20px 30px;
+        }
+        &__cart {
+            &-text {
+                padding-top: 10px;
+            }
+            &-name {
+                font-size: 20px;
+                line-height: 22px;
+            }
+            &-descr {
+                margin-top: 5px;
+                font-size: 16px;
+            }
+        }
+    }
+    .download-katalog {
+        padding: 55px 0 45px 0;
+        &__title {
+            font-size: 31px;
+        }
+        &__line {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    }
+    .feedback {
+        padding: 105px 0 90px 0;
+        &__title {
+            font-size: 31px;
+        }
+        &__line {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 25px;
+            font-size: 16px;
+        }
+    }
+    .map {
+        height: 400px;
+    }
+    .footer {
+        padding: 48px 0;
+        &__logo {
+            &-header {
+                width: 165px;
+                height: 80px;
+            }
+        }
+        &__menus {
+            max-width: 505px;
+        }
+        &__menu {
+            width: 476px;
+            margin-top: 10px;
+            &-item {
+                font-size: 17px;
+            }
+        }
+        &__submenu {
+            padding-left: 128px;
+            &-item {
+                margin-bottom: 8px;
+            }
+        }
+        &__info {
+            max-width: 230px;
+            text-align: right;
+        }
+        &__contacts {
+            &-city {
+                font-size: 18px;
+            }
+            &-number {
+                font-size: 24px;
+                margin-top: 10px;
+            }
+            &__social {
+                margin-top: 45px;
+                min-height: 23px;
+                &-elem {
+                    margin-right: 13px;
+                }
+            }
         }
     }
 }
