@@ -1,0 +1,17 @@
+.burger {
+    display: block;
+}
+.burger-active {
+    span {
+        &:nth-child(1) {
+            transform: rotate(-45deg);
+            position: absolute;
+        }
+        &:nth-child(2) {
+            display: none;
+        }
+        &:nth-child(3) {
+            transform: rotate(45deg);
+        }
+    }
+}

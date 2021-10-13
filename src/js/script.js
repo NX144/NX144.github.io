@@ -10,7 +10,7 @@ window.onload = function() {
             "<img src='./icons/right-arrow.png' alt='catalog-item-img' class='information__arrow information__arrow-left' ></img>",
             "<img src='./icons/right-arrow.png' alt='catalog-item-img' class='information__arrow information__arrow-right' ></img>"
         ],
-        dots: false,
+        dots: false
     });
 
     // Tabs
@@ -37,5 +37,22 @@ window.onload = function() {
                 this.classList.add('description__tab-active');
             }
         });
+    });
+
+    // Menu
+    let burgerBtn = document.querySelector('.burger'),
+        menu = document.querySelector('.main .menu__list');
+
+    function toggleMenu(menuClass, burgerClass) {
+        menuClass.classList.toggle('menu-notactive');
+        menuClass.classList.toggle('menu-active');
+        burgerClass.classList.toggle('burger-active');
+    }
+
+    burgerBtn.addEventListener('click', () => {
+        toggleMenu(menu, burgerBtn);
+    });
+    Hammer(menu).on('swipeleft', () => {
+        toggleMenu(menu, burgerBtn);
     });
 };

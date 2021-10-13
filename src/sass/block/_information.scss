@@ -103,4 +103,7 @@
     .owl-carousel .owl-nav button.owl-next {
         background: unset;
     }
+    .owl-carousel.owl-drag .owl-item {
+        margin-right: 55px;
+    }
 }
