@@ -2208,6 +2208,14 @@
             line-height: 18px;
             text-align: center;
         }
+        &__slider {
+            .owl-prev {
+                left: -10.5%;
+            }
+            .owl-next {
+                right: -10.5%;
+            }
+        }
     }
     .catalog {
         padding: 90px 0 85px 0;
@@ -2405,6 +2413,394 @@
             &-elem {
                 width: 25px;
                 height: 25px;
+            }
+        }
+    }
+}
+@media(max-width: 479px){
+    .main {
+        &__menu {
+            &-list {
+                width: 75%;
+            }
+        }
+        &__content {
+            width: 87%;
+            flex-direction: column;
+            padding: 0;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+        &__logo {
+            width: 175px;
+        }
+        &__title {
+            margin-top: 15px;
+            font-size: 22px;
+        }
+        &__line {
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+        &__descr {
+            margin-top: 15px;
+            font-size: 14px;
+            padding-right: 0;
+            line-height: 20px;
+        }
+        &__btn {
+            width: 140px;
+            height: 45px;
+            margin: 0 auto;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        &__form {
+            width: 260px;
+            margin-top: 35px;
+            &-wrap {
+                padding: 23px 30px 15px;
+            }
+            &-title {
+                font-size: 23px;
+                line-height: 28px;
+                text-align: center;
+            }
+            &-input {
+                height: 33px;
+                margin-top: 20px;
+                font-size: 16px;
+            }
+        }
+        &__checkbox {
+            &-label {
+                font-size: 13px;
+            }
+        }
+    }
+    .partners {
+        &__info {
+            width: 35%;
+            margin-right: 30px;
+            padding-left: 20px;
+        }
+        &__title {
+            font-size: 18px;
+            line-height: 17px;
+        }
+        &__descr {
+            font-size: 13px;
+            line-height: 15px;
+            margin-top: 8px;
+        }
+        &__list {
+            width: 63%;
+            justify-content: unset;
+            padding-right: 10px;
+            li {
+                width: 70px;
+                margin-bottom: 10px;
+                margin-right: 5%;
+            }
+        }
+    }
+    .description {
+        padding: 55px 0 65px 0;
+        &__wrap {
+            width: 95%;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        &__tabs {
+            width: 100%;
+            margin-right: 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+        }
+        &__tab {
+            height: 30px;
+            width: 92px;
+            margin-right: 2px;
+            border: 2px solid #0900d8;
+            color: #0900d8;
+            background-color: transparent;
+            &:hover {
+                color: #fff;
+            }
+            &-active {
+                background-color: transparent;
+                color: #ff4000;
+                border: 2px solid #ff4000;
+                &:hover {
+                    color: #fff
+                }
+            }
+        }
+        &__tabcontent {
+            width: 100%;
+            flex-direction: column;
+        }
+        &__info {
+            width: 100%;
+            margin-top: 15px;
+            text-align: center;
+        }
+        &__title {
+            font-size: 19px;
+            margin-top: 0;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 17px;
+            margin-top: 6px;
+        }
+        &__image {
+            width: 90%;
+            margin-top: 30px;
+            margin-left: 15px;
+        }
+    }
+    .advantages-list {
+        width: 95%;
+        margin: 0 auto;
+        padding: 75px 0 65px 0;
+        &__title {
+            width: 95%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__line {
+            margin: 0 auto;
+            margin-top: 17px;
+        }
+        &__block {
+            margin-top: 30px;
+            justify-content: center;
+        }
+        &__item {
+            width: 40%;
+            min-height: 190px;
+            margin-right: 20px;
+        }
+        &__name {
+            margin-top: 5px;
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__descr {
+            font-size: 13px;
+            margin-top: 7px;
+        }
+    }
+    .our-advantages {
+        &__wrap {
+            width: 94%;
+            padding: 80px 0 70px 0;
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        &__info {
+            width: 100%;
+        }
+        &__title {
+            font-size: 22px;
+            text-align: center;
+        }
+        &__line {
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        &__descr {
+            font-size: 15px;
+            margin-top: 15px;
+            text-align: center;
+            line-height: 21px;
+        }
+        &__block {
+            width: 100%;
+            margin-top: 30px;
+        }
+        &__img {
+            &-wrap {
+                width: 35px;
+                margin-right: 10px;
+                height: 35px;
+            }
+        }
+        &__text {
+            margin-top: -3px;
+            width: 79%;
+            font-size: 12px;
+        }
+        &__image {
+            width: 80%;
+            height: auto;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+    .information {
+        padding: 80px 0 75px 0;
+        &__title {
+            font-size: 49px;
+            &-main {
+                font-size: 22px;
+            }
+        }
+        &__line {
+            margin-top: 15px;
+        }
+        &__stats {
+            width: 95%;
+            height: auto;
+            flex-direction: column;
+            margin-top: 15px;
+        }
+        &__item {
+            width: 13rem;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        &__descr {
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+        }
+        &__slider {
+            width: 85%;
+            margin-top: 50px;
+            height: auto;
+            max-height: 415px;
+            &-item {
+                width: 90%;
+                margin: 0 auto;
+                margin-left: 9.5%;
+            }
+        }
+        .owl-next {
+            top: -0.5%;
+        }
+        .owl-prev {
+            top: -0.5%;
+        }
+    }
+    .catalog {
+        padding: 80px 0 75px 0;
+        &__title {
+            font-size: 22px;
+        }
+        &__line {
+            margin-top: 15px;
+        }
+        &__wrap {
+            margin: 0 auto;
+            margin-top: 0;
+            width: 94%;
+        }
+        &__item {
+            width: 190px;
+            margin: 0 auto;
+            margin-top: 35px;
+            &:nth-child(-n+3) {
+                margin-top: 25px;
+            }
+            &:nth-child(3n) {
+                margin: 0;
+                margin-top: 25px;
+
+            }
+        }
+    }
+    .reviews {
+        padding: 85px 0 80px 0;
+        &__title {
+            font-size: 22px;
+        }
+        &__line {
+            margin-top: 15px;
+        }
+        &__descr {
+            margin-top: 15px;
+            font-size: 17px;
+        }
+        &__block {
+            width: 100%;
+            margin-top: 40px;
+        }
+        &__item {
+            width: 48%;
+            margin-right: 0;
+            &:nth-child(n+3) {
+                display: none;
+            }
+        }
+    }
+    .download-katalog {
+        padding: 40px 0 35px 0;
+        &__title {
+            font-size: 21px;
+        }
+        &__line {
+            margin-top: 13px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        &__btn {
+            width: 115px;
+            height: 32px;
+            font-size: 14px;
+            margin-top: 25px;
+        }
+    }
+    .feedback {
+        padding: 85px 0 70px 0;
+        &__title {
+            font-size: 21px;
+        }
+        &__line {
+            margin-top: 15px;
+        }
+        &__descr {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        &__form {
+            width: 60%;
+            margin-top: 40px;
+        }
+    }
+    .map {
+        height: 235px;
+    }
+    .footer {
+        &__menu {
+            &-item {
+                font-size: 17px;
+                line-height: 27px;
+            }
+        }
+        &__info {
+            margin-top: 10px;
+        }
+        &__contacts {
+            font-size: 16px;
+            margin-bottom: 10px;
+            &-city {
+                margin-top: 10px;
+            }
+            &-number {
+                font-size: 20px;
+                margin-top: 10px;
+                right: 10px;
+            }
+            &-mail {
+                font-size: 20px;
+                left: 10px;
             }
         }
     }

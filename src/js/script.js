@@ -13,7 +13,9 @@ window.onload = function() {
         dots: false,
         responsive: { //Адаптация в зависимости от разрешения экрана
             0:{
-                items: 1
+                items: 1,
+                center: true,
+                margin: 1
             },
             480:{
                 items: 2,
@@ -77,4 +79,20 @@ window.onload = function() {
     Hammer(menu).on('swipeleft', () => {
         toggleMenu(menu, burgerBtn);
     });
+    if(screen.width > "768") {
+        $.fn.setCursorPosition = function(pos) {
+            if ($(this).get(0).setSelectionRange) {
+                $(this).get(0).setSelectionRange(pos, pos);
+            } else if ($(this).get(0).createTextRange) {
+                var range = $(this).get(0).createTextRange();
+                range.collapse(true);
+                range.moveEnd('character', pos);
+                range.moveStart('character', pos);
+                range.select();
+            }
+        };
+        $('#input-phone1').click(function(){
+            $(this).setCursorPosition(4);
+        }).mask("+7 (999) 999-99-99",{autoclear: false});
+    }
 };
