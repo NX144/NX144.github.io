@@ -10,7 +10,29 @@ window.onload = function() {
             "<img src='./icons/right-arrow.png' alt='catalog-item-img' class='information__arrow information__arrow-left' ></img>",
             "<img src='./icons/right-arrow.png' alt='catalog-item-img' class='information__arrow information__arrow-right' ></img>"
         ],
-        dots: false
+        dots: false,
+        responsive: { //Адаптация в зависимости от разрешения экрана
+            0:{
+                items: 1
+            },
+            480:{
+                items: 2,
+                center: false,
+                margin: 25
+            },
+            550: {
+                items: 2,
+                center: false,
+                margin: 35
+            },
+            768:{
+                items: 3,
+                margin: 35
+            },
+            880: {
+                margin: 55
+            }
+        }
     });
 
     // Tabs
