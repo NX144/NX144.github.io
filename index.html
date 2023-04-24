@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header__block">
+                <div class="header__block_left">
+                    <div class="header__block-hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    
+                    <div class="header__block-city">
+                        <img src="./icons/header-component/map-place.svg" alt="map-place">
+                        <span>г. Уфа,  ул. Ленина 2</span>
+                    </div>
+                </div>
+
+                <div class="header__block_right">
+                    <div class="header__block_right-img">
+                        <img src="icons/header-component/phone.png" alt="phone">
+                    </div>
+                    <div class="header__block_right-link">
+                        <a href="tel:+79999999999">+7 (999) 999-99-99</a>
+                    </div>
+                    <button class="header__block_right-btn">Обратный звонок</button>
+                </div>
+            </div>
+            <div class="header__wrapper">
+                <a href="/" class="header__main_logo">
+                    <img src="./icons/header-component/logo.png" alt="logo">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__list_item">
+                            <button class="header__list_item-a header__list_item-btn">
+                                <img src="icons/header-component/catalog.png" alt="catolog">
+                                <span>Каталог</span>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__input">
+                    <input type="text" placeholder="Поиск на весна зелёная..." class="header__input">
+                    <span></span>
+                </div>
+                <div class="header__links">
+                    <div class="header__links-wrapper">
+                        <a href="./cart-page.html" class="header__links-a header__links-basket">
+                            <div class="header__links-img header__links-img_first">
+                                <img src="./icons/header-component/basket.svg" alt="link-busket">
+                            </div>
+                            <span>Корзина</span>
+                        </a>
+                    </div>
+                    <div class="header__links-wrapper">
+                        <a href="/" class="header__links-a">
+                            <div class="header__links-img">
+                                <img src="./icons/header-component/like.png" alt="link-like">
+                            </div>
+                            <span>Избранное</span>
+                        </a>
+                    </div>
+                    <div class="header__links-wrapper">
+                        <a href="/" class="header__links-a">
+                            <div class="header__links-img">
+                                <img src="./icons/header-component/profile.png" alt="link-profile">
+                            </div>
+                            <span>Профиль</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- <header class="header">
+        <div class="container">
+            <div class="header__main">
+                <div class="header__main_right">
+                    <a href="/" class="header__main_logo">
+                        <img src="./icons/header-component/logo.png" alt="logo">
+                    </a>
+                    <div class="header__main_city">
+                        <img src="./icons/header-component/map-place.png" alt="map-place">г. Уфа
+                    </div>
+                </div>
+                <div class="header__main_left">
+                    <div class="header__main_input">
+                        <input type="text" placeholder="Поиск" class="header__main_input">
+                        <span></span>
+                    </div>
+                    <div class="header__main_links">
+                        <a href="/" class="header__main_links-a header__main_links-basket">
+                            <img src="./icons/header-component/basket.png" alt="link-busket">
+                            <span>1</span>
+                        </a>
+                        <a href="/" class="header__main_links-a">
+                            <img src="./icons/header-component/like.png" alt="link-like">
+                        </a>
+                        <a href="/" class="header__main_links-a">
+                            <img src="./icons/header-component/profile.png" alt="link-profile">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__list_item">
+                        <a href="/" class="header__list_item-a active-page">Главная</a>
+                    </li>
+                    <li class="header__list_item">
+                        <a href="/" class="header__list_item-a">Оплата и доставка</a>
+                    </li>
+                    <li class="header__list_item">
+                        <button class="header__list_item-a header__list_item-btn">
+                            <svg id="Layer_2" enable-background="new 0 0 32 32" viewBox="0 0 32 32"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m29 31.938h-8.334c-1.654 0-3-1.346-3-3v-8.334c0-1.654 1.346-3 3-3h8.334c1.654 0 3 1.346 3 3v8.334c0 1.654-1.346 3-3 3zm-8.334-12.334c-.552 0-1 .448-1 1v8.334c0 .552.448 1 1 1h8.334c.552 0 1-.448 1-1v-8.334c0-.552-.448-1-1-1zm-9.333 12.334h-8.333c-1.654 0-3-1.346-3-3v-8.334c0-1.654 1.346-3 3-3h8.333c1.654 0 3 1.346 3 3v8.334c0 1.654-1.345 3-3 3zm-8.333-12.334c-.551 0-1 .448-1 1v8.334c0 .552.449 1 1 1h8.333c.551 0 1-.448 1-1v-8.334c0-.552-.449-1-1-1zm26-5.27h-8.334c-1.654 0-3-1.346-3-3v-8.334c0-1.654 1.346-3 3-3h8.334c1.654 0 3 1.346 3 3v8.334c0 1.654-1.346 3-3 3zm-8.334-12.334c-.552 0-1 .448-1 1v8.334c0 .552.448 1 1 1h8.334c.552 0 1-.448 1-1v-8.334c0-.552-.448-1-1-1zm-9.333 12.334h-8.333c-1.654 0-3-1.346-3-3v-8.334c0-1.654 1.346-3 3-3h8.333c1.654 0 3 1.346 3 3v8.334c0 1.654-1.345 3-3 3zm-8.333-12.334c-.551 0-1 .448-1 1v8.334c0 .552.449 1 1 1h8.333c.551 0 1-.448 1-1v-8.334c0-.552-.449-1-1-1z">
+                                </path>
+                            </svg>
+                            <span>Каталог</span>
+                        </button>
+                    </li>
+                    <li class="header__list_item">
+                        <a href="/" class="header__list_item-a">Контакты</a>
+                    </li>
+                    <li class="header__list_item">
+                        <a href="/" class="header__list_item-a">Отзывы</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
+    <div class="overlay-catalog">
+        <div class="overlay-catalog__container">
+            <button class="overlay-catalog__close">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M19 6.41474L17.5853 5L12 10.5853L6.41474 5L5 6.41474L10.5853 12L5 17.5853L6.41474 19L12 13.4147L17.5853 19L19 17.5853L13.4147 12L19 6.41474Z"
+                        fill="#464C5C"></path>
+                </svg>
+            </button>
+            <ul class="overlay-catalog__menu">
+                <li class="overlay-catalog__menu_item">Теплицы
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+                <li class="overlay-catalog__menu_item">Арки
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+                <li class="overlay-catalog__menu_item">Шпалеры
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+                <li class="overlay-catalog__menu_item">Парники
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+                <li class="overlay-catalog__menu_item">Дуги
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+                <li class="overlay-catalog__menu_item">Тюбинги
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+                <li class="overlay-catalog__menu_item">Чехлы
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+                <li class="overlay-catalog__menu_item">Теплицы
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+                <li class="overlay-catalog__menu_item">Заборчики
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+                <li class="overlay-catalog__menu_item">Семена
+                    <svg width="8" height="16" viewBox="0 0 8 16" fill="black" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.87661 7.68104L0.732358 0.133284C0.564146 -0.0444282 0.294371 -0.0444282 0.126159 0.133284C-0.042053 0.310997 -0.042053 0.596008 0.126159 0.77372L6.96573 7.99958L0.126159 15.2254C-0.042053 15.4032 -0.042053 15.6882 0.126159 15.8659C0.208678 15.9531 0.319762 16 0.427672 16C0.535581 16 0.646665 15.9564 0.729184 15.8659L7.87344 8.31812C8.04165 8.14376 8.04165 7.8554 7.87661 7.68104Z" fill="black"/>
+                    </svg>
+                </li>
+            </ul>
+            <div class="overlay-catalog__title">Категории каталога</div>
+                <div class="overlay-catalog__block">
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo1.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Арки садовые</div> 
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo2.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Дуги парниковые</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo2.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Заборчики</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo4.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Колышки для подвязки</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo1.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Кустодержатели</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo2.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Опоры для деревьев</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo1.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Чехол для укрытия растений</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo4.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Парник для рассады</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo1.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Чехлы для парника</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo2.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Стеллажи для рассады</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo4.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Теплицы</div>
+                    </div>
+                    <div class="overlay-catalog__block_item">
+                        <img src="./icons/overlay-catalog-component/photo2.png" alt="">
+                        <div class="overlay-catalog__block_item-text">Стеллажи для рассады</div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <section class="main-slider">
+        <div class="container">
+            <div class="main-slider__block">
+                <div class="main-slider__block_item">
+                    <img src="./img/header-component/main-item-slider.jpg" alt="">
+                </div>
+
+                <div class="main-slider__block_item">
+                    <img src="./img/header-component/main-item-slider.jpg" alt="">
+                </div>
+
+                <div class="main-slider__block_item">
+                    <img src="./img/header-component/main-item-slider.jpg" alt="">
+                </div>
+
+                <div class="main-slider__block_item">
+                    <img src="./img/header-component/main-item-slider.jpg" alt="">
+                </div>
+
+                <div class="main-slider__block_item">
+                    <img src="./img/header-component/main-item-slider.jpg" alt="">
+                </div>
+
+                <div class="main-slider__block_item">
+                    <img src="./img/header-component/main-item-slider.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="discount">
+        <div class="container">
+            <p class="discount__title">Скидки</p>
+            <div class="discount__wrapper">
+                <a href="" class="discount__wrapper_item">
+                    <img class = "discount__wrapper_item-photo" src="./img/discount-component/photo1.png" alt="photo-1">
+                </a>
+                <a href="" class="discount__wrapper_item">
+                    <img class = "discount__wrapper_item-photo" src="./img/discount-component/photo5.png" alt="photo-2">
+                </a>
+                <a href="" class="discount__wrapper_item">
+                    <img class = "discount__wrapper_item-photo" src="./img/discount-component/photo3.png" alt="photo-3">
+                </a>
+                <a href="" class="discount__wrapper_item">
+                    <img class = "discount__wrapper_item-photo" src="./img/discount-component/photo4.png" alt="photo-4">
+                </a>
+                <a href="" class="discount__wrapper_item">
+                    <img class = "discount__wrapper_item-photo" src="./img/discount-component/photo5.png" alt="photo-5">
+                </a>
+                <a href="" class="discount__wrapper_item">
+                    <img class = "discount__wrapper_item-photo" src="./img/discount-component/photo6.png" alt="photo-6">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular">
+        <div class="container">
+            <p class="popular__title">Хиты продаж</p>
+            <div class="popular__wrapper">
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test1.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test2.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test3.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test4.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test5.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test6.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">
+                        Мини шпалера “Веерная”
+                        Мини шпалера “Веерная”
+                    </div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test7.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="popular mt-35">
+        <div class="container">
+            <div class="popular__wrapper">
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test8.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test9.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test10.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test11.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test12.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test13.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test14.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                </div>
+            <button class="popular__btn">
+                <span>Показать еще</span>
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="#6FBD57" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_18066_206)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.93905 10.8364C5.81701 10.9419 5.66107 11 5.49974 11C5.33841 11 5.18247 10.9419 5.06043 10.8364L0.181241 6.45218C0.124329 6.40345 0.0786409 6.34298 0.0473156 6.27492C0.0159903 6.20686 -0.000229836 6.13282 -0.000229836 6.0579C-0.000229836 5.98298 0.0159903 5.90894 0.0473156 5.84088C0.0786409 5.77282 0.124329 5.71235 0.181241 5.66362C0.303281 5.5581 0.459223 5.50003 0.620553 5.50003C0.781884 5.50003 0.937826 5.5581 1.05987 5.66362L5.49974 9.65249L9.93962 5.66362C10.0616 5.55829 10.2174 5.50033 10.3786 5.50033C10.5398 5.50033 10.6956 5.55829 10.8176 5.66362C10.8745 5.71235 10.9202 5.77282 10.9515 5.84088C10.9828 5.90894 10.999 5.98298 10.999 6.0579C10.999 6.13282 10.9828 6.20686 10.9515 6.27492C10.9202 6.34298 10.8745 6.40345 10.8176 6.45218L5.93905 10.8364Z" fill="#6FBD57"/>
+                    <path d="M6.1875 10.3125C6.1875 10.6922 5.8797 11 5.5 11C5.1203 11 4.8125 10.6922 4.8125 10.3125L4.8125 0.6875C4.8125 0.307804 5.1203 0 5.5 0C5.8797 0 6.1875 0.307804 6.1875 0.6875L6.1875 10.3125Z" fill="#6FBD57"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_18066_206">
+                    <rect width="11" height="11" fill="#6FBD57" transform="matrix(-1 0 0 -1 11 11)"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="sales">
+        <div class="container">
+            <div class="sales__wrapper">
+                <div class="sales__block sales__block-50">
+                    <div class="sales__item">
+                        <div class="sales__img">
+                            <img src="./icons/sales-component/pngwing2.png" alt="">
+                        </div>
+                        <div class="sales__title">CКИДКИ на все теплицы до 15%</div>
+                        <button class="sales__btn">ПОСМОТЕТЬ ВСЕ</button>
+                    </div>
+                </div>
+                <div class="sales__block sales__block-50">
+                    <div class="sales__item">
+                        <div class="sales__img">
+                            <img src="./icons/sales-component/pngwing2.png" alt="">
+                        </div>
+                        <div class="sales__title">CКИДКИ на все теплицы до 15%</div>
+                        <button class="sales__btn">ПОСМОТЕТЬ ВСЕ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="popular">
+        <div class="container">
+            <p class="popular__title">Актуально сейчас</p>
+            <div class="popular__wrapper">
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test1.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test2.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test3.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test4.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test5.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test6.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">
+                        Мини шпалера “Веерная”
+                        Мини шпалера “Веерная”
+                    </div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test7.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular mt-35">
+        <div class="container">
+            <div class="popular__wrapper">
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test8.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test14.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test1.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test12.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test6.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test4.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test5.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="popular mt-35">
+        <div class="container">
+            <div class="popular__wrapper">
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test3.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test9.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test7.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test11.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test12.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test2.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <div class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test14.png" alt="noPhoto">
+                        </div>
+                    </div>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                </div>
+            <button class="popular__btn">
+                <span>Показать еще</span>
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="#6FBD57" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_18066_206)">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.93905 10.8364C5.81701 10.9419 5.66107 11 5.49974 11C5.33841 11 5.18247 10.9419 5.06043 10.8364L0.181241 6.45218C0.124329 6.40345 0.0786409 6.34298 0.0473156 6.27492C0.0159903 6.20686 -0.000229836 6.13282 -0.000229836 6.0579C-0.000229836 5.98298 0.0159903 5.90894 0.0473156 5.84088C0.0786409 5.77282 0.124329 5.71235 0.181241 5.66362C0.303281 5.5581 0.459223 5.50003 0.620553 5.50003C0.781884 5.50003 0.937826 5.5581 1.05987 5.66362L5.49974 9.65249L9.93962 5.66362C10.0616 5.55829 10.2174 5.50033 10.3786 5.50033C10.5398 5.50033 10.6956 5.55829 10.8176 5.66362C10.8745 5.71235 10.9202 5.77282 10.9515 5.84088C10.9828 5.90894 10.999 5.98298 10.999 6.0579C10.999 6.13282 10.9828 6.20686 10.9515 6.27492C10.9202 6.34298 10.8745 6.40345 10.8176 6.45218L5.93905 10.8364Z" fill="#6FBD57"/>
+                    <path d="M6.1875 10.3125C6.1875 10.6922 5.8797 11 5.5 11C5.1203 11 4.8125 10.6922 4.8125 10.3125L4.8125 0.6875C4.8125 0.307804 5.1203 0 5.5 0C5.8797 0 6.1875 0.307804 6.1875 0.6875L6.1875 10.3125Z" fill="#6FBD57"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_18066_206">
+                    <rect width="11" height="11" fill="#6FBD57" transform="matrix(-1 0 0 -1 11 11)"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+
+    <section class="sales">
+        <div class="container">
+            <div class="sales__wrapper">
+                <div class="sales__block">
+                    <div class="sales__item">
+                        <div class="sales__img">
+                            <img src="./icons/sales-component/pngwing2.png" alt="">
+                        </div>
+                        <div class="sales__title">CКИДКИ на все теплицы до 15%</div>
+                        <button class="sales__btn">ПОСМОТЕТЬ ВСЕ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="category">
+        <div class="container">
+            <div class="category__block">
+                <div class="category__block_item">
+                    <div class="category__block_item_text">
+                        <a href="/" class="category__block_item_text-title">Теплицы</a>
+                        <a class="category__block_item_text-decr" href="">Подробее
+                            <img class="category__block_item_text-imag" src="./icons/category-component/Back.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="category__block_item_photo">
+                        <div class="category__block_item_photo-img">
+                              <img src="./icons/category-component/pngwing3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="category__block_item">
+                    <div class="category__block_item_text">
+                        <a href="/" class="category__block_item_text-title">Парники</a>
+                        <a class="category__block_item_text-decr" href="">Подробее
+                            <img class="category__block_item_text-imag" src="./icons/category-component/Back.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="category__block_item_photo">
+                        <div class="category__block_item_photo-img">
+                              <img src="./icons/category-component/pngwing3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="category__block_item">
+                    <div class="category__block_item_text">
+                        <a href="/" class="category__block_item_text-title">Арки садовые</a>
+                        <a class="category__block_item_text-decr" href="">Подробее
+                            <img class="category__block_item_text-imag" src="./icons/category-component/Back.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="category__block_item_photo">
+                        <div class="category__block_item_photo-img">
+                            <img src="./icons/category-component/pngwing3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="category__block_item">
+                    <div class="category__block_item_text">
+                        <a href="/" class="category__block_item_text-title">Дуги парниковые</a>
+                        <a class="category__block_item_text-decr" href="">Подробее
+                            <img class="category__block_item_text-imag" src="./icons/category-component/Back.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="category__block_item_photo">
+                        <div class="category__block_item_photo-img">
+                            <img src="./icons/category-component/pngwing3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="category__block_item">
+                    <div class="category__block_item_text">
+                        <a href="/" class="category__block_item_text-title">Заборчики</a>
+                        <a class="category__block_item_text-decr" href="">Подробее
+                            <img class="category__block_item_text-imag" src="./icons/category-component/Back.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="category__block_item_photo">
+                        <div class="category__block_item_photo-img">
+                            <img src="./icons/category-component/pngwing3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="category__block_item">
+                    <div class="category__block_item_text">
+                        <a href="/" class="category__block_item_text-title">Опоры</a>
+                        <a class="category__block_item_text-decr" href="">Подробее
+                            <img class="category__block_item_text-imag" src="./icons/category-component/Back.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="category__block_item_photo">
+                        <div class="category__block_item_photo-img">
+                            <img src="./icons/category-component/pngwing3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#header" class="pageup">
+        <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_18066_206)">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.93905 10.8364C5.81701 10.9419 5.66107 11 5.49974 11C5.33841 11 5.18247 10.9419 5.06043 10.8364L0.181241 6.45218C0.124329 6.40345 0.0786409 6.34298 0.0473156 6.27492C0.0159903 6.20686 -0.000229836 6.13282 -0.000229836 6.0579C-0.000229836 5.98298 0.0159903 5.90894 0.0473156 5.84088C0.0786409 5.77282 0.124329 5.71235 0.181241 5.66362C0.303281 5.5581 0.459223 5.50003 0.620553 5.50003C0.781884 5.50003 0.937826 5.5581 1.05987 5.66362L5.49974 9.65249L9.93962 5.66362C10.0616 5.55829 10.2174 5.50033 10.3786 5.50033C10.5398 5.50033 10.6956 5.55829 10.8176 5.66362C10.8745 5.71235 10.9202 5.77282 10.9515 5.84088C10.9828 5.90894 10.999 5.98298 10.999 6.0579C10.999 6.13282 10.9828 6.20686 10.9515 6.27492C10.9202 6.34298 10.8745 6.40345 10.8176 6.45218L5.93905 10.8364Z" fill="#fff"/>
+            <path d="M6.1875 10.3125C6.1875 10.6922 5.8797 11 5.5 11C5.1203 11 4.8125 10.6922 4.8125 10.3125L4.8125 0.6875C4.8125 0.307804 5.1203 0 5.5 0C5.8797 0 6.1875 0.307804 6.1875 0.6875L6.1875 10.3125Z" fill="#fff"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_18066_206">
+            <rect width="11" height="11" fill="white" transform="matrix(-1 0 0 -1 11 11)"/>
+            </clipPath>
+            </defs>
+        </svg>
+    </a>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__item">
+                    <a href="/" class="footer__item-img">
+                        <img src="icons/header-component/logo.png" alt="logo">
+                    </a>
+                    <div class="footer__item-title mt-20">© 2009 - 2023 "Весна" Все права защищены.</div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__item-title">Покупателям</div>
+                    <div class="footer__item-links">
+                        <a href="./make-order.html">Как сделать заказ</a>
+                        <a href="./payments.html">Способы оплаты</a>
+                        <a href="./delivery.html">Доставка</a>
+                        <a href="#">Возврат товара</a>
+                        <a href="#">Возврат денег</a>
+                        <a href="./rules.html">Правила пользования</a>
+                        <a href="#">Вопросы и ответы</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__item-title">Партнеры</div>
+                    <div class="footer__item-links">
+                        <a href="./provider.html">Поставщикам</a>
+                        <a href="./wholesalers.html">Оптовым покупателям</a>
+                        <a href="#">Перевозчикам</a>
+                        <a href="#">Фрилансерам</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__item-title">О Нас</div>
+                    <div class="footer__item-links">
+                        <a href="./about-page.html">О нас</a>
+                        <a href="./requisites-page.html">Реквизиты</a>
+                        <a href="./contacts.html">Контакты</a>
+                    </div>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__item-title hover">Контакты</div>
+                    <div class="footer__item-phone">
+                        <div class="footer__item-round">
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M9 16C2.814 9.813 3.11 5.134 5.94 3.012l.627-.467a1.483 1.483 0 0 1 2.1.353l1.579 2.272a1.5 1.5 0 0 1-.25 1.99L8.476 8.474c-.38.329-.566.828-.395 1.301.316.88 1.083 2.433 2.897 4.246 1.814 1.814 3.366 2.581 4.246 2.898.474.17.973-.015 1.302-.396l1.314-1.518a1.5 1.5 0 0 1 1.99-.25l2.276 1.58a1.48 1.48 0 0 1 .354 2.096l-.47.633C19.869 21.892 15.188 22.187 9 16z" fill="#white"/></svg>
+                        </div>
+                        <div class="footer__item-number">
+                            <a href="tel:+78005519431">+7 (800) 551-94-31</a>
+                            <a href="tel:+74952921867">+7 (495) 292-18-67</a>
+                        </div>
+                    </div>
+                    <div class="footer__item-social">
+                        <a href="#" class="footer__item-social-link">
+                            <img src="icons/social/Vk.png" alt="VK">
+                        </a>
+                        <a href="#" class="footer__item-social-link">
+                            <img src="icons/social/facebook.png" alt="telegram">
+                        </a>
+                        <a href="#" class="footer__item-social-link">
+                            <img src="icons/social/youTube.png" alt="YouTube">
+                        </a>
+                    </div>
+                    <a href="#" class="footer__link">
+                        <div class="footer__link_img">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.26875 0.0658212L5.1875 0.128321V3.8752C5.1875 7.5127 5.19063 7.61895 5.24687 7.69082L5.30625 7.76582L8.95938 7.7752C10.9656 7.77832 12.6562 7.7752 12.7125 7.76582C12.7688 7.75645 12.8438 7.71895 12.8781 7.68457C12.9375 7.6252 12.9375 7.54707 12.9375 3.87832V0.128321L12.8563 0.0658212C12.7719 0.000196457 12.7688 0.000196457 9.0625 0.000196457C5.35625 0.000196457 5.35313 0.000196457 5.26875 0.0658212ZM7.0625 1.5627V2.65957L7.14062 2.73457L7.21563 2.8127H8H8.78437L8.85938 2.73457L8.9375 2.65957V1.5627V0.468946H9.64062H10.3438V3.89082V7.3127H8H5.65625V3.89082V0.468946H6.35938H7.0625V1.5627ZM8.46875 1.40645V2.34395H8H7.53125V1.40645V0.468946H8H8.46875V1.40645ZM12.4688 3.89082V7.3127L11.65 7.30645L10.8281 7.29707L10.8187 3.88145L10.8125 0.468946H11.6406H12.4688V3.89082Z" fill="white"/>
+                                <path d="M6.89734 6.43127C6.82546 6.5094 6.82859 6.6969 6.90046 6.7594C6.97859 6.83127 7.16609 6.82815 7.22859 6.75627C7.30046 6.67815 7.29734 6.49065 7.22546 6.42815C7.14734 6.35627 6.95984 6.3594 6.89734 6.43127Z" fill="white"/>
+                                <path d="M7.83484 6.43127C7.76296 6.5094 7.76609 6.6969 7.83796 6.7594C7.91609 6.83127 8.10359 6.82815 8.16609 6.75627C8.23796 6.67815 8.23484 6.49065 8.16296 6.42815C8.08484 6.35627 7.89734 6.3594 7.83484 6.43127Z" fill="white"/>
+                                <path d="M8.77234 6.43127C8.70046 6.5094 8.70359 6.6969 8.77546 6.7594C8.85359 6.83127 9.04109 6.82815 9.10359 6.75627C9.17546 6.67815 9.17234 6.49065 9.10046 6.42815C9.02234 6.35627 8.83484 6.3594 8.77234 6.43127Z" fill="white"/>
+                                <path d="M0.0625 8.31924C0 8.38799 0 8.40674 0 12.1161V15.8474L0.078125 15.9224L0.153125 16.0005H3.88438C7.55625 16.0005 7.61563 16.0005 7.67813 15.938C7.71875 15.9036 7.75313 15.8192 7.76563 15.7442C7.775 15.6692 7.78125 13.9849 7.775 11.9974C7.76563 8.49424 7.7625 8.37861 7.70625 8.31611L7.64688 8.25049H3.8875H0.128125L0.0625 8.31924ZM3.28125 9.65674V10.5974L2.82188 10.588L2.35938 10.5786L2.34375 9.93486C2.33125 9.45361 2.31875 9.27861 2.28438 9.24111C2.22188 9.16299 2.025 9.17236 1.95 9.25361C1.89375 9.31611 1.89063 9.37549 1.89063 10.113C1.89063 10.8942 1.89063 10.9067 1.9625 10.9755C2.03125 11.0442 2.05313 11.0474 2.725 11.0567C3.48438 11.0692 3.6 11.0567 3.69063 10.9661C3.74688 10.9099 3.75 10.8536 3.75 9.81299V8.71924H4.46875H5.1875V12.1255V15.5317H2.82813H0.46875V12.1255V8.71924H1.875H3.28125V9.65674ZM7.28125 12.1255V15.5317H6.46875H5.65625V12.1255V8.71924H6.46875H7.28125V12.1255Z" fill="white"/>
+                                <path d="M1.73768 14.6599C1.57206 14.788 1.68143 15.063 1.89706 15.063C1.99706 15.063 2.12518 14.9317 2.12518 14.8286C2.12518 14.7255 1.99706 14.5942 1.89706 14.5942C1.85643 14.5942 1.78456 14.6224 1.73768 14.6599Z" fill="white"/>
+                                <path d="M2.67518 14.6599C2.50956 14.788 2.61893 15.063 2.83456 15.063C2.93456 15.063 3.06268 14.9317 3.06268 14.8286C3.06268 14.7255 2.93456 14.5942 2.83456 14.5942C2.79393 14.5942 2.72206 14.6224 2.67518 14.6599Z" fill="white"/>
+                                <path d="M3.61268 14.6599C3.44706 14.788 3.55643 15.063 3.77206 15.063C3.87206 15.063 4.00018 14.9317 4.00018 14.8286C4.00018 14.7255 3.87206 14.5942 3.77206 14.5942C3.73143 14.5942 3.65956 14.6224 3.61268 14.6599Z" fill="white"/>
+                                <path d="M8.29368 8.31611C8.23743 8.37861 8.2343 8.49424 8.22493 11.9974C8.21868 13.9849 8.22493 15.6692 8.2343 15.7442C8.2468 15.8192 8.28118 15.9036 8.3218 15.938C8.3843 16.0005 8.44368 16.0005 12.1156 16.0005H15.8468L15.9218 15.9224L15.9999 15.8474V12.1161C15.9999 8.40674 15.9999 8.38799 15.9374 8.31924L15.8718 8.25049H12.1124H8.35305L8.29368 8.31611ZM10.1249 9.81299C10.1249 10.8536 10.1281 10.9099 10.1843 10.9661C10.2749 11.0567 10.3906 11.0692 11.1531 11.0567L11.8499 11.0474L11.9249 10.9599L11.9999 10.8724V9.79424V8.71924H12.7031H13.4062V12.1255V15.5317H11.0624H8.71868V12.1255V8.71924H9.4218H10.1249V9.81299ZM11.5249 9.64736L11.5156 10.5786L11.0562 10.588L10.5937 10.5974V9.65674V8.71924H11.0624H11.5312L11.5249 9.64736ZM15.5312 12.1255V15.5317H14.7031H13.8749V12.1255V8.71924H14.7031H15.5312V12.1255Z" fill="white"/>
+                                <path d="M10.007 14.616C9.98508 14.6254 9.94758 14.6722 9.91945 14.7254C9.87883 14.8035 9.87883 14.8347 9.91008 14.9097C9.9757 15.0722 10.1226 15.1066 10.2632 14.9972C10.4695 14.8347 10.257 14.516 10.007 14.616Z" fill="white"/>
+                                <path d="M10.9445 14.616C10.9226 14.6254 10.8851 14.6722 10.857 14.7254C10.8163 14.8035 10.8163 14.8347 10.8476 14.9097C10.9132 15.0722 11.0601 15.1066 11.2007 14.9972C11.407 14.8347 11.1945 14.516 10.9445 14.616Z" fill="white"/>
+                                <path d="M11.882 14.616C11.8601 14.6254 11.8226 14.6722 11.7945 14.7254C11.7538 14.8035 11.7538 14.8347 11.7851 14.9097C11.8507 15.0722 11.9976 15.1066 12.1382 14.9972C12.3445 14.8347 12.132 14.516 11.882 14.616Z" fill="white"/>
+                            </svg>
+                        </div>
+                        <div class="footer__link_title">Оптовым покупателям</div>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__descr">
+                <a href="#" class="footer__item-subtitle">Договор оферты</a>
+                <a href="#" class="footer__item-subtitle">Политика конфиденциальности</a>
+                <a href="https://vk.com/swift_it" target="_blank" class="footer__item-title footer__item-dev">Сайт разработан студией SWIFT_IT</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
