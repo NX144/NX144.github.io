@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/swiper@9.3.2/modules/scrollbar/scrollbar.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.min.css" />
 </head>
 
@@ -163,6 +166,7 @@
             </div>
         </div>
     </header>
+
 
     <!-- <header class="header">
         <div class="container">
@@ -344,7 +348,7 @@
                 <a href="/" class="nav-a-margin">
                   <img class="catalog-page__list_item-photo-img" src="./icons/requisites-component/Vector.png" alt="">
                 </a>
-                <ul class="catalog-page__list">
+                <ul class="catalog-page__list info-catalog__list">
                     <li class="catalog-page__list_item">
                         <a href="/catalog-page.html">Главная</a>
                     </li>
@@ -353,45 +357,49 @@
                     </li>
                 </ul>
             </nav>
-            <p class="info-catalog__title">Телпица “Супер пупер” 1,25м</p>
-            <div class="info-catalog__wrap">
-                <div class="info-catalog__rating catalog-page__block2__item2-rating">
-                    <i class="catalog-page__block2__item2-rating-star">
-                        <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
-                        </svg>
-                    </i>
-                    <i class="catalog-page__block2__item2-rating-star">
-                        <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
-                        </svg>
-                    </i>
-                    <i class="catalog-page__block2__item2-rating-star">
-                        <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
-                        </svg>
-                    </i>
-                    <i class="catalog-page__block2__item2-rating-star">
-                        <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
-                        </svg>
-                    </i>
-                    <i class="catalog-page__block2__item2-rating-star">
-                        <svg fill="silver" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
-                        </svg>
-                    </i>
-                    <span class="info-catalog__rating_title catalog-page__block2__item2-rating-title">153 Отзыва</span>
-                </div>
-                <div class="info-catalog__code">
-                    <p class="info-catalog__code_text">Код товара:</p>
-                    <span class="info-catalog__code_number">366666-2 </span>
-                </div>
-                <div class="info-catalog__like">
-                    <div class="info-catalog__like_svg " title="Добавить в избранное">
-                        <svg width="16" height="14" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="#C4C4C4"/></svg>
+            <div class="mobile-descr-1">
+                <p class="info-catalog__title">Телпица “Супер пупер” 1,25м</p>
+                <div class="info-catalog__wrap">
+                    <div class="info-catalog__rating catalog-page__block2__item2-rating">
+                        <div class="info-catalog__rating_i">
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="silver" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                        </div>
+                        <span class="info-catalog__rating_title catalog-page__block2__item2-rating-title">153 Отзыва</span>
                     </div>
-                    <span class="info-catalog__like_text">В избранное</span>
+                    <div class="info-catalog__code">
+                        <p class="info-catalog__code_text">Код товара:</p>
+                        <span class="info-catalog__code_number">366666-2 </span>
+                    </div>
+                    <div class="info-catalog__like">
+                        <div class="info-catalog__like_svg " title="Добавить в избранное">
+                            <svg width="16" height="14" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="#C4C4C4"/></svg>
+                        </div>
+                        <span class="info-catalog__like_text">В избранное</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -399,40 +407,40 @@
 
     <section class="slider">
         <div class="container">
-            <div class="slider__flex">
+            <div class="slider__flex slider-width1">
                 <div class="slider__col">
                     <div class="slider__prev">
                         <img src="./icons/arrow-up-slider.png" alt="arrow-up-slider">
                     </div>
-                    <!-- Кнопка для переключения на предыдущий слайд -->
+
 
                     <div class="slider__thumbs">
                         <div class="swiper-container">
-                            <!-- Слайдер с превью -->
+
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="slider__image">
-                                        <img src="https://picsum.photos/1920/1080" alt="" />
+                                        <img src="https://phonoteka.org/uploads/posts/2022-09/1663327500_14-phonoteka-org-p-drift-art-vkontakte-14.jpg" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="slider__image">
-                                        <img src="https://picsum.photos/1920/1081" alt="" />
+                                        <img src="https://i.ytimg.com/vi/yWiHFu-Mheg/maxresdefault.jpg" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="slider__image">
-                                        <img src="https://picsum.photos/1920/1082" alt="" />
+                                        <img src="https://klike.net/uploads/posts/2022-12/1670144178_3-56.jpg" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="slider__image">
-                                        <img src="https://picsum.photos/1920/1083" alt="" />
+                                        <img src="https://animeshka.org/uploads/posts/2023-02/1675477738_animeshka-org-p-lxst-cxntury-wallpaper-krasivo-46.jpg" alt="" />
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="slider__image">
-                                        <img src="https://picsum.photos/1920/1084" alt="" />
+                                        <img src="https://sportishka.com/uploads/posts/2022-11/1667535915_31-sportishka-com-p-oboi-s-yaponskimi-mashinami-oboi-37.jpg" alt="" />
                                     </div>
                                 </div>
                             </div>
@@ -442,42 +450,114 @@
                     <div class="slider__next">
                         <img src="./icons/arrow-down-slider.png" alt="arrow-down-slider">
                     </div>
-                    <!-- Кнопка для переключения на следующий слайд -->
                 </div>
 
                 <div class="slider__images">
                     <div class="swiper-container">
-                        <!-- Слайдер с изображениями -->
                         <div class="swiper-wrapper swiper-wrapper1">
                             <div class="swiper-slide">
                                 <div class="slider__image">
-                                    <img src="https://picsum.photos/1920/1080" alt="" />
+                                    <img src="https://phonoteka.org/uploads/posts/2022-09/1663327500_14-phonoteka-org-p-drift-art-vkontakte-14.jpg" alt="" />
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="slider__image">
-                                    <img src="https://picsum.photos/1920/1081" alt="" />
+                                    <img src="https://i.ytimg.com/vi/yWiHFu-Mheg/maxresdefault.jpg" alt="" />
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="slider__image">
-                                    <img src="https://picsum.photos/1920/1082" alt="" />
+                                    <img src="https://klike.net/uploads/posts/2022-12/1670144178_3-56.jpg" alt="" />
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="slider__image">
-                                    <img src="https://picsum.photos/1920/1083" alt="" />
+                                    <img src="https://animeshka.org/uploads/posts/2023-02/1675477738_animeshka-org-p-lxst-cxntury-wallpaper-krasivo-46.jpg" alt="" />
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="slider__image">
-                                    <img src="https://picsum.photos/1920/1084" alt="" />
+                                    <img src="https://sportishka.com/uploads/posts/2022-11/1667535915_31-sportishka-com-p-oboi-s-yaponskimi-mashinami-oboi-37.jpg" alt="" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="owl-carousel2 slider-width2">
+                <div class="item">
+                    <div class="slider__image">
+                        <img src="https://phonoteka.org/uploads/posts/2022-09/1663327500_14-phonoteka-org-p-drift-art-vkontakte-14.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider__image">
+                        <img src="https://i.ytimg.com/vi/yWiHFu-Mheg/maxresdefault.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider__image">
+                        <img src="https://klike.net/uploads/posts/2022-12/1670144178_3-56.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider__image">
+                        <img src="https://animeshka.org/uploads/posts/2023-02/1675477738_animeshka-org-p-lxst-cxntury-wallpaper-krasivo-46.jpg" alt="" />
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="slider__image">
+                        <img src="https://sportishka.com/uploads/posts/2022-11/1667535915_31-sportishka-com-p-oboi-s-yaponskimi-mashinami-oboi-37.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-descr-2">
+                <p class="info-catalog__title">Телпица “Супер пупер” 1,25м</p>
+                <div class="info-catalog__wrap">
+                    <div class="info-catalog__rating catalog-page__block2__item2-rating">
+                        <div class="info-catalog__rating_i">
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="#FC8507" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                            <i class="catalog-page__block2__item2-rating-star">
+                                <svg fill="silver" width="16px" height="16px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1915.918 737.475c-10.955-33.543-42.014-56.131-77.364-56.131h-612.029l-189.063-582.1v-.112C1026.394 65.588 995.335 43 959.984 43c-35.237 0-66.41 22.588-77.365 56.245L693.443 681.344H81.415c-35.35 0-66.41 22.588-77.365 56.131-10.955 33.544.79 70.137 29.478 91.03l495.247 359.831-189.177 582.212c-10.955 33.657 1.13 70.25 29.817 90.918 14.23 10.278 30.946 15.487 47.66 15.487 16.716 0 33.432-5.21 47.775-15.6l495.134-359.718 495.021 359.718c28.574 20.781 67.087 20.781 95.662.113 28.687-20.668 40.658-57.261 29.703-91.03l-189.176-582.1 495.36-359.83c28.574-20.894 40.433-57.487 29.364-91.03" fill-rule="FC8507"/>
+                                </svg>
+                            </i>
+                        </div>
+                        <span class="info-catalog__rating_title catalog-page__block2__item2-rating-title">153 Отзыва</span>
+                    </div>
+                    <div class="info-catalog__code">
+                        <p class="info-catalog__code_text">Код товара:</p>
+                        <span class="info-catalog__code_number">366666-2 </span>
+                    </div>
+                    <div class="info-catalog__like">
+                        <div class="info-catalog__like_svg " title="Добавить в избранное">
+                            <svg width="16" height="14" viewBox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="#C4C4C4"/></svg>
+                        </div>
+                        <span class="info-catalog__like_text">В избранное</span>
+                    </div>
+                </div>
+            </div>
+
             <div class="property">
                 <div class="property__title">Характеристики</div>
                 <div class="property__divider"></div>
@@ -612,15 +692,15 @@
     </div>
 
     <section class="sales">
-        <div class="container-60">
+        <div class="container">
             <div class="sales__wrapper">
                 <div class="sales__block sales__block-50">
                     <div class="sales__item">
                         <div class="sales__img">
                             <img src="./icons/sales-component/pngwing2.png" alt="">
                         </div>
-                        <div class="sales__title sale__text">CКИДКИ на все теплицы до 15%</div>
-                        <button class="sales__btn">ПОСМОТЕТЬ ВСЕ</button>
+                        <div class="sales__title">CКИДКИ на все теплицы до 15%</div>
+                        <a class="sales__btn">ПОСМОТЕТЬ ВСЕ</a>
                     </div>
                 </div>
                 <div class="sales__block sales__block-50">
@@ -628,8 +708,8 @@
                         <div class="sales__img">
                             <img src="./icons/sales-component/pngwing2.png" alt="">
                         </div>
-                        <div class="sales__title sale__text">CКИДКИ на все теплицы до 15%</div>
-                        <button class="sales__btn">ПОСМОТЕТЬ ВСЕ</button>
+                        <div class="sales__title">CКИДКИ на все теплицы до 15%</div>
+                        <a class="sales__btn">ПОСМОТЕТЬ ВСЕ</a>
                     </div>
                 </div>
             </div>
@@ -885,16 +965,16 @@
 
 
     <section class="popular">
-        <div class="container-60">
+        <div class="container">
             <p class="popular__title">С этим товаром покупают</p>
-            <div class="popular__wrapper">
+            <div class="popular__wrapper owl-carousel owl-theme ">
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
                             <img src="img/popular-products/test1.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -905,12 +985,12 @@
                     <div class="popular__item-text">Мини шпалера “Веерная”</div>
                 </div>
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
                             <img src="img/popular-products/test2.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -921,12 +1001,12 @@
                     <div class="popular__item-text">Мини шпалера “Веерная”</div>
                 </div>
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
                             <img src="img/popular-products/test3.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -937,12 +1017,12 @@
                     <div class="popular__item-text">Мини шпалера “Веерная”</div>
                 </div>
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
                             <img src="img/popular-products/test4.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -953,12 +1033,12 @@
                     <div class="popular__item-text">Мини шпалера “Веерная”</div>
                 </div>
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
                             <img src="img/popular-products/test5.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -969,12 +1049,12 @@
                     <div class="popular__item-text">Мини шпалера “Веерная”</div>
                 </div>
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
                             <img src="img/popular-products/test6.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -988,12 +1068,12 @@
                     </div>
                 </div>
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
                             <img src="img/popular-products/test7.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -1007,16 +1087,48 @@
         </div>
     </section>
 
-    <section class="popular" style="margin-top: 10px;">
-        <div class="container-60">
-            <div class="popular__wrapper">
+    <section class="popular mt-35">
+        <div class="container">
+            <div class="popular__wrapper owl-carousel owl-theme ">
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test8.png" alt="noPhoto">
+                        </div>
+                    </a>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <a href="/catalog-page.html" class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test14.png" alt="noPhoto">
+                        </div>
+                    </a>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
+                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
                             <img src="img/popular-products/test1.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -1027,12 +1139,12 @@
                     <div class="popular__item-text">Мини шпалера “Веерная”</div>
                 </div>
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
-                            <img src="img/popular-products/test2.png" alt="noPhoto">
+                            <img src="img/popular-products/test12.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -1043,60 +1155,12 @@
                     <div class="popular__item-text">Мини шпалера “Веерная”</div>
                 </div>
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
-                        <div class="popular__item_photo-hover"></div>
-                        <div class="popular__item_photo-img popular__item-img_sale">
-                            <img src="img/popular-products/test3.png" alt="noPhoto">
-                        </div>
-                    </div>
-                    <div class="popular__item_descr">
-                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
-                        <div class="popular__item_descr-like" title="Добавить в избранное">
-                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
-                        </div>
-                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
-                    </div>
-                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
-                </div>
-                <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
-                        <div class="popular__item_photo-hover"></div>
-                        <div class="popular__item_photo-img popular__item-img_sale">
-                            <img src="img/popular-products/test4.png" alt="noPhoto">
-                        </div>
-                    </div>
-                    <div class="popular__item_descr">
-                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
-                        <div class="popular__item_descr-like" title="Добавить в избранное">
-                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
-                        </div>
-                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
-                    </div>
-                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
-                </div>
-                <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
-                        <div class="popular__item_photo-hover"></div>
-                        <div class="popular__item_photo-img popular__item-img_sale">
-                            <img src="img/popular-products/test5.png" alt="noPhoto">
-                        </div>
-                    </div>
-                    <div class="popular__item_descr">
-                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
-                        <div class="popular__item_descr-like" title="Добавить в избранное">
-                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
-                        </div>
-                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
-                    </div>
-                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
-                </div>
-                <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
                             <img src="img/popular-products/test6.png" alt="noPhoto">
                         </div>
-                    </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -1104,18 +1168,31 @@
                         </div>
                         <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
                     </div>
-                    <div class="popular__item-text">
-                        Мини шпалера “Веерная”
-                        Мини шпалера “Веерная”
-                    </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
                 </div>
                 <div class="popular__item popular__item-sale">
-                    <div class="popular__item_photo">
+                    <a href="/catalog-page.html" class="popular__item_photo">
                         <div class="popular__item_photo-hover"></div>
                         <div class="popular__item_photo-img popular__item-img_sale">
-                            <img src="img/popular-products/test7.png" alt="noPhoto">
+                            <img src="img/popular-products/test4.png" alt="noPhoto">
                         </div>
+                    </a>
+                    <div class="popular__item_descr">
+                        <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
+                        <div class="popular__item_descr-like" title="Добавить в избранное">
+                            <svg width="21" height="18" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 7.10682C10.7048 6.13955 11.8536 1.72721 15.2092 1.72721C17.1518 1.72721 19.25 3.06672 19.25 6.048C19.25 9.42224 16.0764 13.363 10.5 16.9549C4.92362 13.363 1.75 9.42224 1.75 6.048C1.75 3.03908 3.82288 1.72548 5.75488 1.72548C9.1875 1.72548 10.2568 6.1525 10.5 7.10682ZM0 6.048C0 9.56129 2.6775 14.2362 10.5 19C18.3225 14.2362 21 9.56129 21 6.048C21 -0.828297 12.558 -1.74894 10.5 2.82058C8.45425 -1.72389 0 -0.86716 0 6.048Z" fill="black"/></svg>
+                        </div>
+                        <button title="Добавить в корзину" class="popular__item_descr-btn"><img src="./img/popular-products/basket.svg" alt="Добавить в корзину"></button>
                     </div>
+                    <div class="popular__item-text">Мини шпалера “Веерная”</div>
+                </div>
+                <div class="popular__item popular__item-sale">
+                    <a href="/catalog-page.html" class="popular__item_photo">
+                        <div class="popular__item_photo-hover"></div>
+                        <div class="popular__item_photo-img popular__item-img_sale">
+                            <img src="img/popular-products/test5.png" alt="noPhoto">
+                        </div>
+                    </a>
                     <div class="popular__item_descr">
                         <div class="popular__item_descr-price">9 800 ₽ <span>19 800</span></div>
                         <div class="popular__item_descr-like" title="Добавить в избранное">
@@ -1144,7 +1221,7 @@
         </svg>
     </a>
 
-    <footer class="footer">
+    <footer class="footer footer-catalog-item">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__item">
@@ -1281,6 +1358,15 @@
 
     <script type="module">
         import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.esm.browser.min.js'
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
       
         const sliderThumbs = new Swiper('.slider__thumbs .swiper-container', { // ищем слайдер превью по селектору
             // задаем параметры
@@ -1296,7 +1382,7 @@
                 0: { // при 0px и выше
                     direction: 'horizontal', // горизонтальная прокрутка
                 },
-                768: { // при 768px и выше
+                1200: { // при 768px и выше
                     direction: 'vertical', // вертикальная прокрутка
                 }
             }
@@ -1304,7 +1390,7 @@
         // Инициализация слайдера изображений
         const sliderImages = new Swiper('.slider__images .swiper-container', { // ищем слайдер превью по селектору
             // задаем параметры
-            direction: 'vertical', // вертикальная прокрутка
+            direction: 'vertical', // горизонтальная прокрутка
             slidesPerView: 1, // показывать по 1 изображению
             spaceBetween: 20, // расстояние между слайдами
             mousewheel: true, // можно прокручивать изображения колёсиком мыши
@@ -1312,16 +1398,28 @@
                 nextEl: '.slider__next', // кнопка Next
                 prevEl: '.slider__prev' // кнопка Prev
             },
-            grabCursor: true, // менять иконку курсора
             thumbs: { // указываем на превью слайдер
                 swiper: sliderThumbs // указываем имя превью слайдера
             },
+            grabCursor: true, // менять иконку курсора
             breakpoints: { // условия для разных размеров окна браузера
                 0: { // при 0px и выше
-                    direction: 'horizontal', // горизонтальная прокрутка
+                //     slidesPerView: 1, // показывать по 1 изображению
+                //     navigation: { // задаем кнопки навигации
+                //         nextEl: '.slider__next', // кнопка Next
+                //         prevEl: '.slider__prev' // кнопка Prev
+                //     },
+                //     direction: 'horizontal', // горизонтальная прокрутка
+                //     pagination: {
+                //         el: ".swiper-pagination",
+                //         dynamicBullets: true,
+                //     },
+                //     grabCursor: true, // менять иконку курсора
+                //     mousewheel: true, // можно прокручивать изображения колёсиком мыши
                 },
-                768: { // при 768px и выше
+                1200: { // при 768px и выше
                     direction: 'vertical', // вертикальная прокрутка
+                    
                 }
             }
         });
@@ -1329,6 +1427,7 @@
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>

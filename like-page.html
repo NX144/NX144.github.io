@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Basket</title>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
-
 <body>
     <div class="header-menu">
         <nav class="header-menu__nav">
@@ -339,121 +337,25 @@
         </div>
     </div>
 
-
-
-    <section class="wholesalers">
-        <div class="container-60">
-            <div class="catalog-page">
-                <nav class="catalog-page__nav nav-a">
-                    <a href="/" class="nav-a-margin">
-                        <img class="catalog-page__list_item-photo-img" src="./icons/requisites-component/Vector.png" alt="">
-                    </a>
-                    <ul class="catalog-page__list">
-                        <li class="catalog-page__list_item">
-                            <a href="/catalog-page.html">Оптовым покупателямs</a>
-                        </li>
-                    </ul>
-                </nav>
-            <p class="catalog-page__title">Оптовым покупателям</p>
-            <div class="wholesalers__block">
-                <div class="wholesalers__block_wrapp">
-                    <div class="wholesalers__block_wrapp_title">Станьте нашим оптовым покупателем</div>
-                   <p class="wholesalers__block_wrapp_descr">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <p class="wholesalers__block_wrapp_descr2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-                    </div>
-                </div>
+    <section class="basket">
+        <div class="container">
+            <nav class="catalog-page__nav">
+                <ul class="catalog-page__list">
+                    <li class="catalog-page__list_item">
+                        <a href="/">Главная</a>
+                    </li>
+                    <li class="catalog-page__list_item">
+                        <a href="/basket-page.html">Избранное</a>
+                    </li>
+                </ul>
+            </nav>
+            <p class="basket__title">Избранное</p>
+            <div class="basket__wrapper">
+                <div class="basket__descr">У вас нет избранных</div>
+                <div class="basket__btn">Вернуться в магазин</div>
             </div>
         </div>
     </section>
-
-    <section class="advantages-buying">
-        <div class="container-60">
-            <div class="advantages-buying__block">
-                <div class="advantages-buying__block_title">Преимущества оптовой покупки</div>
-                <div class="advantages-buying__block_wrapper">
-                    <div class="advantages-buying__block_wrapper-item">
-                        <img class="advantages-buying__block_wrapper-item-img" src="./icons/wholesalers-component/price-tag 1.png" alt="">
-                        <p class="advantages-buying__block_wrapper-item-descr">Индивидуальные ценыдля клиентов</p>
-                    </div>
-                    <div class="advantages-buying__block_wrapper-item">
-                        <img class="advantages-buying__block_wrapper-item-img" src="./icons/wholesalers-component/costs 2.png" alt="">
-                        <p class="advantages-buying__block_wrapper-item-descr" >Совершая оптовую покупку вы можете сэкономить</p>
-                    </div>
-                    <div class="advantages-buying__block_wrapper-item">
-                        <img class="advantages-buying__block_wrapper-item-img" src="./icons/wholesalers-component/delivery-man3.png" alt="">
-                        <p class="advantages-buying__block_wrapper-item-descr" >Быстрая доставка прямо к дому</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <div class="contact-section">
-        <div class="container-60">
-            <div class="contact-section__title">Контакты  оптового отдела</div>
-            <div class="contact-section__block">
-                <div class="contact-section__item">
-                    <div class="contact-section__item_title">Телефоны оптового отдела: </div>
-                    <div class="contact-section__wrap">
-                        <a href="tel:+79999999999" class="contact-section__item_text">+7 (999) 999-99-99</a>
-                        <a href="tel:+79999999999" class="contact-section__item_text">+7 (999) 999-99-99</a>
-                    </div>
-                </div>
-                <div class="contact-section__item">
-                    <div class="contact-section__item_title">Почта оптового отдела: </div>
-                    <div class="contact-section__wrap">
-                        <a href="mailto:timur.zainutdinov@bk.ru" class="contact-section__item_text">timur.zainutdinov@bk.ru</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="form-section">
-        <div class="container-60">
-            <h2 class="form-section__title">Оставьте заявку для связи с нашим оптовым отделом</h2>
-            <form action="#" method="POST" class="form-section__wrap">
-                <div class="form-section__item">
-                    <label for="name" class="form-section__label checkout__item-label">Имя<span>*</span></label>
-                    <input class="form-section__input" name="name" id="name">
-                </div>
-                <div class="form-section__item">
-                    <label for="surname" class="form-section__label checkout__item-label">Фамилия<span>*</span></label>
-                    <input class="form-section__input" name="surname" id="surname">
-                </div>
-                <div class="form-section__item">
-                    <label for="number" class="form-section__label checkout__item-label">Номер телефона<span>*</span></label>
-                    <input class="form-section__input" name="number" id="number">
-                </div>
-                <div class="form-section__item">
-                    <label for="email" class="form-section__label checkout__item-label">Эл.почта<span>*</span></label>
-                    <input class="form-section__input" name="email" id="email">
-                </div>
-                <div class="form-section__item">
-                    <label for="city" class="form-section__label checkout__item-label">Город/населённый пункт<span>*</span></label>
-                    <input class="form-section__input"name="city" id="city">
-                </div>
-                <div class="form-section__item">
-                    <label for="index" class="form-section__label checkout__item-label">Почтовый индекс<span>*</span></label>
-                    <input class="form-section__input" name="index" id="index">
-                </div>
-                <div class="form-section__item">
-                    <label for="address" class="form-section__label checkout__item-label">Адрес<span>*</span></label>
-                    <input class="form-section__input" name="address" id="address">
-                </div>
-                <div class="form-section__check checkout__item-last_polyce">
-                    <input type="checkbox" id="check">
-                    <label for="check">Я соглашаюсь с <a href="#">правилами пользования.</a></label>
-                </div>
-                <button type="submit" class="request-btn form-section__btn">Оставить заявку</button>
-            </form>
-        </div>
-    </div>
-
 
     <a href="#header" class="pageup">
         <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -602,11 +504,9 @@
     </div>
 
 
-
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 </body>
-
 </html>
